@@ -1,0 +1,18 @@
+{
+    "stores": {
+        "store": {
+            "errorRedirectUrl": "/",
+            "service": {},
+            "scene": "COMMON_VERIFY",
+            "notNativePlatform": true,
+            "isLowVersion": true,
+            "isServerRendered": true,
+            "isFinishInitLoading": true,
+            "idCardName": "**曦",
+            "idCardNo": "3****************6",
+            "snapshotId": "484019917366423552",
+            "pageFrom": "1",
+            "isWeChatMiniProgram": false
+        }
+    }
+}

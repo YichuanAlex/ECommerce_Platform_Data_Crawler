@@ -1,0 +1,375 @@
+{
+    "store": {
+        "errorRedirectUrl": "/",
+        "isPre": false,
+        "$likeMallText": "关注",
+        "$likeMallEntryTip": "关注的店铺可在个人中心的“店铺关注”入口查看",
+        "preRenderBannerSrc": null,
+        "preRenderHideNoFirstScreenContent": false,
+        "preRenderShowMock": false,
+        "initDataObj": {
+            "goods": {
+                "serverTime": 1750862701,
+                "serverTimeTen": 17508627010,
+                "weakenGoodsName": 0,
+                "goodsID": 749800606044,
+                "brandId": "",
+                "goodsType": 1,
+                "localGroups": [],
+                "hasLocalGroup": 0,
+                "topGallery": [],
+                "viewImageData": [],
+                "detailGallery": [],
+                "videoGallery": [],
+                "descVideoGallery": [],
+                "mallID": 353944260,
+                "groupTypes": [],
+                "skus": [],
+                "thumbUrl": "",
+                "hdThumbUrl": "",
+                "eventType": 0,
+                "isApp": 0,
+                "isFreshmanApp": 0,
+                "eventComing": false,
+                "isSpike": false,
+                "isTodaySpike": false,
+                "isTomorrowSpike": false,
+                "isSpikeComing": false,
+                "gpv": null,
+                "quickRefund": false,
+                "rv": false,
+                "maxNormalPrice": "0",
+                "minNormalPrice": "0",
+                "maxGroupPrice": "0",
+                "minGroupPrice": "0",
+                "maxOnSaleGroupPrice": "0",
+                "minOnSaleGroupPrice": "0",
+                "maxOnSaleNormalPrice": "0",
+                "minOnSaleNormalPrice": "0",
+                "unselectNormalSavePrice": "0",
+                "skipGoodsIDs": [
+                    ""
+                ],
+                "tag": null,
+                "icon": null,
+                "tagIcon": [],
+                "isColdGoods": 0,
+                "goodsProperty": [],
+                "skuProperty": [],
+                "linePrice": "0",
+                "priceStyle": 0,
+                "quicklyExpire": {},
+                "goodsExpansionPrice": "0",
+                "beforeRemindSeconds": 300,
+                "bottomBanner": null,
+                "isAppFlow": true,
+                "groupNumFull": false,
+                "promptExplain": "",
+                "isAbnormalStatus": true,
+                "statusExplain": "商品已售罄，推荐以下相似商品",
+                "statusIcon": 59326,
+                "abnormalShowMall": 1,
+                "hideMall": false,
+                "isMallRec": false,
+                "status": 2,
+                "isGoodsOnSale": false,
+                "isSkuOnSale": false,
+                "isOnSale": false,
+                "showRecTitle": 1,
+                "abnormalSearchUrl": "search_view.html?source=10111&shade_words=搜索你要的商品",
+                "showRec": 1,
+                "eventTime": 1750862701,
+                "mallService": {
+                    "service": [],
+                    "vipService": {},
+                    "honorService": {}
+                },
+                "skuDirectOrder": false,
+                "ui": {},
+                "control": {
+                    "ai_assistant_enable": false,
+                    "enable_fold_fav_and_mall": false
+                },
+                "transmission": {},
+                "uin": "TRFN2KTBUDX74GDQ2GZ5O7M4AI_GEXDA",
+                "isMobileWeChatPlatform": false,
+                "contextData": {
+                    "isNativePlatform": false,
+                    "hostname": "mobile.yangkeduo.com",
+                    "isMiniProgram": false
+                },
+                "DDType": false,
+                "isDuoDuoSingleGroup": false,
+                "isDuoDuoDoubleGroup": false,
+                "isNewBottomTips": false,
+                "isLowGroupNewBottomTips": false,
+                "nowTime": 1750862701,
+                "nowTimeTen": 17508627010,
+                "isABTestGoodsPrerenderOC": true,
+                "isAbDirectOrderRepayModifyPanel": true,
+                "isAbDirectOrderMianmiV2": true,
+                "isAbSwitchToWechatIfSignXyhfFailed": false,
+                "hasAddressLine": false,
+                "ignoreShowSkuSelector": false,
+                "useBestPromotion": true,
+                "usePayPromotion": true,
+                "goodsImageQuantityGrey": false,
+                "goodsImageQuantityParams": {},
+                "isABGoodsRecOffset": false,
+                "isABfastGroupBuyQa": false,
+                "isABLongBannerMode": true,
+                "isGoodsBottomAfterCouponRefresh": true,
+                "isABBottomMallIconStyle": false,
+                "isABWxGotoAppEnforce": false,
+                "ifLiveCouponSkuSelector": true,
+                "showGoodsLabel": true,
+                "guideXyhfCountdown": false,
+                "supportGbs": true,
+                "balanceNotEnoughToMianMi": true,
+                "payCanceledToXyhf": true,
+                "applyDuoDuoPayCancelToMianMi": true,
+                "enableSkuMask": true,
+                "bottomBtnIndex": false,
+                "canRefreshAfterOrder": false,
+                "allowOcHosts": [
+                    "mobile.pinduoduo.com"
+                ],
+                "forwardOcHost": "mobile.yangkeduo.com",
+                "livingValidationUrl": "https://renzheng.pinduoduo.com/living-validation/living-validation.html",
+                "useH5FaceCert": true,
+                "bannerHeight": "3.75rem",
+                "isUseRawBackBannerUrl": false
+            },
+            "mall": {
+                "mallId": "353944260",
+                "mallName": "清欢美妆店",
+                "oldMallYears": 3,
+                "oldMallYearsTag": "3年老店",
+                "mallStar": 4.5,
+                "mallShowType": 0,
+                "mallTransferType": 0,
+                "salesTip": "已拼1.9万件",
+                "salesTipV2": "全店已拼1.9万件",
+                "salesTipV3": "店铺已拼1.9万件",
+                "mallSales": 19000,
+                "mallLogo": "http://t16img.yangkeduo.com/pdd_ims/img_check/v3/FF6C97FFFFFF0820200112154811880/1f31f27e28924a85aa78cb9ec375ba15.png",
+                "goodsNum": 56,
+                "goodsNumDesc": "商品数量: 56",
+                "pddRoute": "mall_page.html?mall_id=353944260&msn=ivdbukwltaxrnlwmerxibspfnq_axbuy&_sop_rcto=YWJKbxiT4FrIhNZXa1ZY2CvxTuXTx_3fIjo&mall_info=%7B%22mall_name%22%3A%22%E6%B8%85%E6%AC%A2%E7%BE%8E%E5%A6%86%E5%BA%97%22%7D",
+                "pddRouteName": "进店逛逛",
+                "mallServiceTag": "客服",
+                "isFlagShip": false,
+                "logoList": [],
+                "mallLogoList": [
+                    {
+                        "logoType": 4,
+                        "logoUrl": "https://promotion.pddpic.com/oms-img-promotion/2025-06-20/8cc6e85e-2e68-4085-9b42-9889a9b86bd2.png",
+                        "logoHeight": 48,
+                        "logoWidth": 171
+                    }
+                ],
+                "mallLogoListV2": [
+                    {
+                        "logoType": 4,
+                        "logoUrl": "https://promotion.pddpic.com/oms-img-promotion/2025-06-20/8cc6e85e-2e68-4085-9b42-9889a9b86bd2.png",
+                        "logoHeight": 48,
+                        "logoWidth": 171
+                    }
+                ],
+                "dsr": {
+                    "descScore": 4.63,
+                    "descStatus": 1,
+                    "logisticsScore": 4.63,
+                    "logisticsStatus": 1,
+                    "serviceScore": 4.63,
+                    "serviceStatus": 1,
+                    "descRankPercent": 47,
+                    "logisticsRankPercent": 47,
+                    "serviceRankPercent": 47,
+                    "descRankStatus": 1,
+                    "logisticsRankStatus": 1,
+                    "serviceRankStatus": 1,
+                    "hideRankInfo": 0,
+                    "mallRatingTextList": [
+                        {
+                            "mallRatingKey": {
+                                "txt": "描述相符",
+                                "color": "#58595B",
+                                "font": 13
+                            },
+                            "mallRatingValue": {
+                                "txt": "高",
+                                "color": "#E02E24",
+                                "font": 11,
+                                "backColor": "#FCE5E5"
+                            }
+                        },
+                        {
+                            "mallRatingKey": {
+                                "txt": "物流服务",
+                                "color": "#58595B",
+                                "font": 13
+                            },
+                            "mallRatingValue": {
+                                "txt": "高",
+                                "color": "#E02E24",
+                                "font": 11,
+                                "backColor": "#FCE5E5"
+                            }
+                        },
+                        {
+                            "mallRatingKey": {
+                                "txt": "服务态度",
+                                "color": "#58595B",
+                                "font": 13
+                            },
+                            "mallRatingValue": {
+                                "txt": "高",
+                                "color": "#E02E24",
+                                "font": 11,
+                                "backColor": "#FCE5E5"
+                            }
+                        }
+                    ],
+                    "mallStar": 4.5,
+                    "isShowMallStar": true
+                },
+                "isGuideMall": false,
+                "extras": {
+                    "2": false,
+                    "3": false,
+                    "5": 1,
+                    "7": false,
+                    "8": true,
+                    "13": false,
+                    "14": false
+                },
+                "msn": "ivdbukwltaxrnlwmerxibspfnq_axbuy",
+                "merchantType": 1,
+                "hasMallDecoration": false,
+                "mallHeadTagVo": {
+                    "action": "highLayer",
+                    "actionParams": {
+                        "url": "pdd_mall_lego_pages.html?lego_minversion=5.78.0&minversion=5.78.0&lego_type=v8&lego_ssr_api=%2Fapi%2Fpdd_mall_lego_pages%2Fget_config%2Fpdd_mall_guarantee_layer&source=3&mall_id=353944260",
+                        "name": "pdd_mall_guarantee_layer"
+                    },
+                    "iconUrl": "https://funimg.pddpic.com/d33e814f-b115-4877-8dfb-cf6bb13b0a6e.png",
+                    "iconWidth": 11,
+                    "iconHeight": 13,
+                    "bgImgUrl": "https://funimg.pddpic.com/2021-01-05/50063bdc-47ab-4134-91cf-bc13fe1fa5bb.png",
+                    "title": "店铺保障",
+                    "mallPageHeadShowTagVolist": [
+                        {
+                            "desc": "保证金",
+                            "scriptColor": "#58595B"
+                        },
+                        {
+                            "showTagType": 1,
+                            "desc": "3年老店",
+                            "scriptColor": "#58595B"
+                        }
+                    ]
+                },
+                "hideShipAddress": false,
+                "mallFavVo": {
+                    "showButton": false,
+                    "mallFavNum": 116,
+                    "mallFavTag": "粉丝:116"
+                },
+                "factoryMallVo": {
+                    "factoryMallFlag": false
+                },
+                "qualityScoreRank": 0.033930834049582054,
+                "mallID": "353944260",
+                "logo": "https://t16img.yangkeduo.com/pdd_ims/img_check/v3/FF6C97FFFFFF0820200112154811880/1f31f27e28924a85aa78cb9ec375ba15.png"
+            },
+            "liveInfo": null,
+            "queries": {
+                "goods_id": "749800606044"
+            },
+            "isIOS": false,
+            "isSystemIOS": true,
+            "guideConfig": {
+                "waitTime": 20000,
+                "presentTime": 5000
+            },
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)",
+            "webp": true,
+            "oakData": {
+                "activityCollection": {},
+                "ui": {},
+                "goods": {},
+                "control": {
+                    "aiAssistantEnable": false,
+                    "enableFoldFavAndMall": false
+                },
+                "promotion": {
+                    "events": {}
+                },
+                "sectionList": [
+                    {
+                        "sectionId": "space_section"
+                    },
+                    {
+                        "sectionId": "mall_info_section"
+                    }
+                ]
+            },
+            "isABRafLoadJS": true,
+            "isABChatActiveDuration": true,
+            "isABRefreshToken": true
+        },
+        "extra": {
+            "mallActiveTimeText": ""
+        },
+        "isNativePlatform": false,
+        "isLiteNativePlatform": false,
+        "isTinyNativePlatform": false,
+        "categoryCouponInfo": {},
+        "popupModalElement": null,
+        "isIOS": false,
+        "isWhiteFont": false,
+        "isTransparentBar": false,
+        "isShowFailingGroupHint": false,
+        "isWeChatMiniProgram": false,
+        "isShowFastGroupBuyTip": false,
+        "skuOcExtend": {},
+        "bannerState": {
+            "currentIndex": 0,
+            "goToPageIndex": 0,
+            "hasShowedSimpleGoods": false,
+            "simpleGoodsList": []
+        },
+        "fakeAppDownloadShow": false,
+        "withBtnScaleAnimation": false,
+        "appCouponGray": 0,
+        "appDownloadCouponGray": 0,
+        "ifHigherMallInfo": false,
+        "ifHasPushState": false,
+        "abTestValues": {
+            "pwc_cc4bc7": {
+                "sku": {
+                    "sku_height": "88%"
+                },
+                "alignWithNative": {}
+            }
+        },
+        "animationControllers": [],
+        "animationGroupTimer": null,
+        "mallDetailInfo": {},
+        "viewCtx": {},
+        "detailsIsInner": false,
+        "funcAssemblySet": {},
+        "$isSupportWebp": false,
+        "isHarmonyBApp": false,
+        "goodsCommentsInLayerGrey": false,
+        "goodsSkuImageHotGrey": false,
+        "goodsImageQuantityGrey": false,
+        "goodsImageQuantityParams": {},
+        "isDDMCMiniProgram": false,
+        "isABGoodsStreamRender": true,
+        "isServerRendered": true,
+        "isFinishInitLoading": true,
+        "isPreClientDataFetch": false
+    }
+}

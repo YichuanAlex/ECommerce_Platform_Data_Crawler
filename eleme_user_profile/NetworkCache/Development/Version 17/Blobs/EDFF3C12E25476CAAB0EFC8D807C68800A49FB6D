@@ -1,0 +1,683 @@
+(function (factory) {
+    typeof define === 'function' && define.amd ? define(factory) :
+    factory();
+})((function () { 'use strict';
+
+    function _define_property(obj, key, value) {
+        if (key in obj) {
+            Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });
+        } else obj[key] = value;
+
+        return obj;
+    }
+
+    function _object_spread(target) {
+        for (var i = 1; i < arguments.length; i++) {
+            var source = arguments[i] != null ? arguments[i] : {};
+            var ownKeys = Object.keys(source);
+
+            if (typeof Object.getOwnPropertySymbols === "function") {
+                ownKeys = ownKeys.concat(
+                    Object.getOwnPropertySymbols(source).filter(function(sym) {
+                        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
+                    })
+                );
+            }
+
+            ownKeys.forEach(function(key) {
+                _define_property(target, key, source[key]);
+            });
+        }
+
+        return target;
+    }
+
+    function _array_with_holes(arr) {
+        if (Array.isArray(arr)) return arr;
+    }
+
+    function _iterable_to_array_limit(arr, i) {
+        var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
+
+        if (_i == null) return;
+
+        var _arr = [];
+        var _n = true;
+        var _d = false;
+        var _s, _e;
+
+        try {
+            for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) {
+                _arr.push(_s.value);
+                if (i && _arr.length === i) break;
+            }
+        } catch (err) {
+            _d = true;
+            _e = err;
+        } finally {
+            try {
+                if (!_n && _i["return"] != null) _i["return"]();
+            } finally {
+                if (_d) throw _e;
+            }
+        }
+
+        return _arr;
+    }
+
+    function _non_iterable_rest() {
+        throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+
+    function _array_like_to_array(arr, len) {
+        if (len == null || len > arr.length) len = arr.length;
+
+        for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+
+        return arr2;
+    }
+
+    function _unsupported_iterable_to_array(o, minLen) {
+        if (!o) return;
+        if (typeof o === "string") return _array_like_to_array(o, minLen);
+
+        var n = Object.prototype.toString.call(o).slice(8, -1);
+
+        if (n === "Object" && o.constructor) n = o.constructor.name;
+        if (n === "Map" || n === "Set") return Array.from(n);
+        if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _array_like_to_array(o, minLen);
+    }
+
+    function _sliced_to_array(arr, i) {
+        return _array_with_holes(arr) || _iterable_to_array_limit(arr, i) || _unsupported_iterable_to_array(arr, i) || _non_iterable_rest();
+    }
+
+    function ownKeys(object, enumerableOnly) {
+        var keys = Object.keys(object);
+
+        if (Object.getOwnPropertySymbols) {
+            var symbols = Object.getOwnPropertySymbols(object);
+            keys.push.apply(keys, symbols);
+        }
+
+        return keys;
+    }
+    function _object_spread_props(target, source) {
+        source = source != null ? source : {};
+
+        if (Object.getOwnPropertyDescriptors) Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+        else {
+            ownKeys(Object(source)).forEach(function(key) {
+                Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+            });
+        }
+
+        return target;
+    }
+
+    var StatusCodes;
+    (function(StatusCodes) {
+        StatusCodes[StatusCodes[/// 0 - 成功回调
+        "Success"] = 0] = "Success";
+        StatusCodes[StatusCodes[/// 1 - 持续回调
+        "Executing"] = 1] = "Executing";
+        StatusCodes[StatusCodes[/// 2 - 无意义返回值
+        "None"] = 2] = "None";
+        StatusCodes[StatusCodes[/// 99 - 回调对象释放
+        "Finish"] = 99] = "Finish";
+        StatusCodes[StatusCodes[/*
+       [100, 499) 区间为能力调度层错误码
+       其中 [100, 199) 错误码留给容器
+       */ /// 150 - 服务端 API 未实现
+        "ServerAPINotFound"] = 150] = "ServerAPINotFound";
+        StatusCodes[StatusCodes[/// 151 - 服务端 API 未匹配
+        "ServerDataNotFound"] = 151] = "ServerDataNotFound";
+        StatusCodes[StatusCodes[/// 200 - 非主线程调用
+        "NonMainThread"] = 200] = "NonMainThread";
+        StatusCodes[StatusCodes[/// 404 - 能力未注册
+        "AbilityNotFound"] = 404] = "AbilityNotFound";
+        StatusCodes[StatusCodes[/// 405 - API 未实现
+        "APINotFound"] = 405] = "APINotFound";
+        StatusCodes[StatusCodes[/// 499 - 能力内部错误，或者未知的错误
+        "AbilityInternalError"] = 499] = "AbilityInternalError";
+        StatusCodes[StatusCodes[/* [500, 999) 区间为能力执行通用错误码 */ /// 500 - 传参错误
+        "ParametersNotCorrect"] = 500] = "ParametersNotCorrect";
+        StatusCodes[StatusCodes[/* [1000, ∞) 区间为能力执行通用错误码 */ /// 1000 - 业务通用错误码
+        "BizDefaultError"] = 1000] = "BizDefaultError";
+    })(StatusCodes || (StatusCodes = {}));
+
+     //# sourceMappingURL=statusCode.js.map
+
+    function getTraceID() {
+        return "".concat(Date.now());
+    }
+    var canIUseTrace = false;
+    var hasCallCanIUse = false;
+    function canIUseTraceAPI() {
+        if (typeof window !== "undefined" && window.__megability_bridge__) {
+            if (hasCallCanIUse) {
+                return canIUseTrace;
+            } else {
+                var res = window.__megability_bridge__.syncCall("ability", "available", {
+                    ability: "ability",
+                    api: "finishTrace"
+                });
+                hasCallCanIUse = true;
+                canIUseTrace = res && res.statusCode === 0 && res.type === "YES";
+                return canIUseTrace;
+            }
+        } else {
+            return false;
+        }
+    }
+    function markStartTime(traceId, params) {
+        var _params___mega_context__ = params.__mega_context__, __mega_context__ = _params___mega_context__ === void 0 ? {} : _params___mega_context__;
+        return _object_spread_props(_object_spread({}, params), {
+            __mega_context__: _object_spread_props(_object_spread({}, __mega_context__), {
+                trace: {
+                    traceId: traceId,
+                    startTime: "".concat(Date.now())
+                }
+            })
+        });
+    }
+    function markEndTime(traceId) {
+        var canIUse = canIUseTraceAPI();
+        if (typeof window !== "undefined" && window.__megability_bridge__ && canIUse) {
+            window.__megability_bridge__.asyncCall("ability", "finishTrace", {
+                traceId: traceId,
+                finishTime: "".concat(Date.now())
+            });
+        }
+    }
+
+    var DEFAULT_RESULT = {
+        statusCode: StatusCodes.APINotFound,
+        type: "result"
+    };
+
+    var hook = typeof __uniapi_hook__ !== "undefined" ? window.__uniapi_hook__ : function() {
+        return [
+            false
+        ];
+    };
+    // Support system browser.
+    if (typeof window !== "undefined" && !window.__megability_bridge__ && window.__windvane__ && window.__windvane__.windVaneCoreJs) {
+        try {
+            var strJS = window.__windvane__.windVaneCoreJs();
+            // eslint-disable-next-line no-eval
+            eval(strJS);
+        } catch (e) {
+            // eslint-disable-next-line no-console
+            console.error("The system browser initialization bridge is abnormal.");
+        }
+    }
+    function getBridge() {
+        return typeof window !== "undefined" && window.__megability_bridge__ ? window.__megability_bridge__ : {
+            asyncCall: function(ability1, api1, params1, callback1) {
+                // eslint-disable-next-line no-console
+                console.warn("asyncCall: Mega is not supported on the runtime.", ability1, api1, params1);
+                callback1 && callback1(DEFAULT_RESULT);
+            },
+            syncCall: function(ability1, api1, params1) {
+                // eslint-disable-next-line no-console
+                console.warn("syncCall: Mega is not supported on the runtime.", ability1, api1, params1);
+                return DEFAULT_RESULT;
+            }
+        };
+    }
+    function asyncCall$2(ability1, api1) {
+        var params1 = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {}, callback1 = arguments.length > 3 ? arguments[3] : void 0;
+        var traceID1 = getTraceID();
+        var paramsWithTrace1 = markStartTime(traceID1, params1);
+        var callbackWithTrace1 = function(callbackParams1) {
+            markEndTime(traceID1);
+            callback1 && callback1(callbackParams1);
+        };
+        var _hook = _sliced_to_array(hook(ability1, api1, paramsWithTrace1, callbackWithTrace1), 2), shouldIntercept1 = _hook[0], tmp = _hook[1], overrideResult1 = tmp === void 0 ? DEFAULT_RESULT : tmp;
+        if (shouldIntercept1) {
+            Promise.resolve(overrideResult1).then(callbackWithTrace1);
+        } else {
+            getBridge().asyncCall(ability1, api1, paramsWithTrace1, callbackWithTrace1);
+        }
+    }
+    function syncCall$2(ability1, api1, params1) {
+        var traceID1 = getTraceID();
+        var paramsWithTrace1 = markStartTime(traceID1, params1);
+        var _hook = _sliced_to_array(hook(ability1, api1, paramsWithTrace1), 2), shouldIntercept1 = _hook[0], tmp = _hook[1], overrideResult1 = tmp === void 0 ? DEFAULT_RESULT : tmp;
+        if (shouldIntercept1) {
+            markEndTime(traceID1);
+            return overrideResult1;
+        } else {
+            var res1 = getBridge().syncCall(ability1, api1, paramsWithTrace1);
+            markEndTime(traceID1);
+            return res1;
+        }
+    }
+
+    var Client = /*#__PURE__*/Object.freeze({
+        __proto__: null,
+        asyncCall: asyncCall$2,
+        syncCall: syncCall$2
+    });
+
+    function getWormholeContext() {
+        let wormhole = {};
+        if (typeof __wormhole__ !== 'undefined') {
+            wormhole.feloader = __wormhole__.feloader;
+            wormhole.system = __wormhole__.system;
+            wormhole.data = __wormhole__.data;
+            wormhole.http = __wormhole__.http;
+            wormhole.rewrite = __wormhole__.rewrite;
+            wormhole.redirect = __wormhole__.redirect;
+            if (typeof __wormhole_extend__ !== 'undefined') {
+                wormhole.hsfClient = __wormhole_extend__.hsfClient;
+                wormhole.mtopEvent = __wormhole_extend__.mtopEvent;
+                wormhole.logger = __wormhole_extend__.logger;
+                wormhole.performance = __wormhole_extend__.performance;
+                wormhole.sleep = __wormhole_extend__.sleep;
+                wormhole.eagleeye = __wormhole_extend__.eagleeye;
+            }
+        }
+        return wormhole;
+    }
+    let wormhole = {};
+    // 加上typeof判断后动态导出，避免前端代码引入后报错
+    if (typeof __wormhole__ !== 'undefined') {
+        wormhole = getWormholeContext();
+        // export 缓存开启后，必须使用useContext方法获取wormhole对象,这样才会从 asyncLocalStorage 重新赋值
+        wormhole.getContext = () => {
+            return getWormholeContext();
+        };
+    }
+    else {
+        // 与方法签名保持一致，一定有 getContext 方法
+        wormhole.getContext = () => {
+            return undefined;
+        };
+    }
+    var dist = wormhole;
+
+    var apiContext;
+    function tryParseAPIContext() {
+        var context = dist.getContext();
+        var mtopEvent = context.mtopEvent;
+        if (!apiContext) {
+            try {
+                var _mtopEvent_httpInfo;
+                apiContext = JSON.parse(decodeURIComponent(mtopEvent === null || mtopEvent === void 0 ? void 0 : (_mtopEvent_httpInfo = mtopEvent.httpInfo) === null || _mtopEvent_httpInfo === void 0 ? void 0 : _mtopEvent_httpInfo.headers["api-context"])) || [];
+            } catch (e) {
+                dist.logger === null || dist.logger === void 0 ? void 0 : dist.logger.info("getInfo err: ".concat(JSON.stringify(e)));
+            }
+        }
+    }
+    function getInfo(ability, api) {
+        var params = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
+        tryParseAPIContext();
+        var res = {
+            isMatch: false,
+            res: {
+                statusCode: StatusCodes.ServerDataNotFound,
+                type: "result"
+            }
+        };
+        if (Array.isArray(apiContext)) {
+            apiContext.forEach(function(item) {
+                if (Array.isArray(item) && (item[0] || "") === "".concat(ability, ".").concat(api) && JSON.stringify(item[1] || {}) === JSON.stringify(params)) {
+                    res = {
+                        isMatch: true,
+                        res: item[2] || {
+                            statusCode: StatusCodes.ServerDataNotFound,
+                            type: "result"
+                        }
+                    };
+                }
+            });
+        }
+        return res;
+    }
+    function canIUse(ability, api) {
+        tryParseAPIContext();
+        var res = false;
+        if (Array.isArray(apiContext)) {
+            apiContext.forEach(function(item) {
+                if (Array.isArray(item) && (item[0] || "") === "".concat(ability, ".").concat(api)) {
+                    res = true;
+                }
+            });
+        }
+        return res;
+    }
+    function asyncCall$1(ability, api) {
+        var params = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {}, callback = arguments.length > 3 ? arguments[3] : void 0;
+        var info = getInfo(ability, api, params);
+        if (info.isMatch) {
+            callback(info.res);
+        } else {
+            callback({
+                statusCode: StatusCodes.ServerDataNotFound,
+                type: "result"
+            });
+        }
+    }
+    function syncCall$1(ability, api, params) {
+        // Deal with canIUse.
+        if (ability === "ability" && api === "available") {
+            return {
+                statusCode: canIUse(params === null || params === void 0 ? void 0 : params.ability, params === null || params === void 0 ? void 0 : params.api) ? StatusCodes.Success : StatusCodes.ServerAPINotFound,
+                type: "YES"
+            };
+        }
+        // Deal with ability.
+        var info = getInfo(ability, api, params);
+        if (info.isMatch) {
+            return info.res;
+        } else {
+            return {
+                statusCode: StatusCodes.ServerDataNotFound,
+                type: "result"
+            };
+        }
+    }
+
+    var Server = /*#__PURE__*/Object.freeze({
+        __proto__: null,
+        asyncCall: asyncCall$1,
+        syncCall: syncCall$1
+    });
+
+    var isWeb = typeof window !== 'undefined' && 'onload' in window;
+    var isNode = typeof process !== 'undefined' && !!(process.versions && process.versions.node);
+    typeof WXEnvironment !== 'undefined' && WXEnvironment.platform !== 'Web';
+    var isMiniApp = typeof my !== 'undefined' && my !== null && typeof my.alert !== 'undefined';
+    var isByteDanceMicroApp = typeof tt !== 'undefined' && tt !== null && typeof tt.showToast !== 'undefined';
+    typeof swan !== 'undefined' && swan !== null && typeof swan.showToast !== 'undefined';
+    typeof ks !== 'undefined' && ks !== null && typeof ks.showToast !== 'undefined';
+    // In wechat mini program, wx.login is a function
+    // In wechat mini propgram webview, there is no wx.login, but exist wx.miniProgram
+    // In bytedance maicro app, there is wx variable.
+    // In kuaishou mini program, there is wx variable.
+    !isByteDanceMicroApp && typeof wx !== 'undefined' && wx !== null && (typeof wx.request !== 'undefined' || typeof wx.miniProgram !== 'undefined');
+    isMiniApp && isWeb && my.isFRM;
+
+    // WindVane.call is a function while page importing windvane.js
+    var ua = typeof navigator === 'object' ? navigator.userAgent || navigator.swuserAgent : '';
+    /.+AliApp\((\w+)\/((?:\d+\.)+\d+)\).* .*(WindVane)(?:\/((?:\d+\.)+\d+))?.*/.test(ua) && isWeb && typeof WindVane !== 'undefined' && typeof WindVane.call !== 'undefined';
+
+    function _assert_this_initialized(self) {
+        if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+
+        return self;
+    }
+
+    function _class_call_check(instance, Constructor) {
+        if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
+    }
+
+    function _set_prototype_of(o, p) {
+        _set_prototype_of = Object.setPrototypeOf || function setPrototypeOf(o, p) {
+            o.__proto__ = p;
+
+            return o;
+        };
+
+        return _set_prototype_of(o, p);
+    }
+
+    function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+            throw new TypeError("Super expression must either be null or a function");
+        }
+
+        subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } });
+
+        if (superClass) _set_prototype_of(subClass, superClass);
+    }
+
+    function _is_native_reflect_construct() {
+        if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+        if (Reflect.construct.sham) return false;
+        if (typeof Proxy === "function") return true;
+
+        try {
+            Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {}));
+
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+
+    function _construct(Parent, args, Class) {
+        if (_is_native_reflect_construct()) _construct = Reflect.construct;
+        else {
+            _construct = function construct(Parent, args, Class) {
+                var a = [null];
+                a.push.apply(a, args);
+                var Constructor = Function.bind.apply(Parent, a);
+                var instance = new Constructor();
+
+                if (Class) _set_prototype_of(instance, Class.prototype);
+
+                return instance;
+            };
+        }
+
+        return _construct.apply(null, arguments);
+    }
+
+    function _get_prototype_of(o) {
+        _get_prototype_of = Object.setPrototypeOf ? Object.getPrototypeOf : function getPrototypeOf(o) {
+            return o.__proto__ || Object.getPrototypeOf(o);
+        };
+
+        return _get_prototype_of(o);
+    }
+
+    function _is_native_function(fn) {
+        return Function.toString.call(fn).indexOf("[native code]") !== -1;
+    }
+
+    function _wrap_native_super(Class) {
+        var _cache = typeof Map === "function" ? new Map() : undefined;
+        _wrap_native_super = function(Class) {
+            if (Class === null || !_is_native_function(Class)) return Class;
+            if (typeof Class !== "function") throw new TypeError("Super expression must either be null or a function");
+            if (typeof _cache !== "undefined") {
+                if (_cache.has(Class)) return _cache.get(Class);
+                _cache.set(Class, Wrapper);
+            }
+
+            function Wrapper() {
+                return _construct(Class, arguments, _get_prototype_of(this).constructor);
+            }
+            Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } });
+
+            return _set_prototype_of(Wrapper, Class);
+        };
+
+        return _wrap_native_super(Class);
+    }
+
+    function _type_of(obj) {
+        "@swc/helpers - typeof";
+
+        return obj && typeof Symbol !== "undefined" && obj.constructor === Symbol ? "symbol" : typeof obj;
+    }
+
+    function _possible_constructor_return(self, call) {
+        if (call && (_type_of(call) === "object" || typeof call === "function")) return call;
+
+        return _assert_this_initialized(self);
+    }
+
+    function _create_super(Derived) {
+        var hasNativeReflectConstruct = _is_native_reflect_construct();
+
+        return function _createSuperInternal() {
+            var Super = _get_prototype_of(Derived), result;
+
+            if (hasNativeReflectConstruct) {
+                var NewTarget = _get_prototype_of(this).constructor;
+                result = Reflect.construct(Super, arguments, NewTarget);
+            } else {
+                result = Super.apply(this, arguments);
+            }
+
+            return _possible_constructor_return(this, result);
+        };
+    }
+
+    var UNIAPIError = /*#__PURE__*/ function(Error1) {
+        _inherits(UNIAPIError, Error1);
+        var _super = _create_super(UNIAPIError);
+        function UNIAPIError(message, ability, api, params, output) {
+            _class_call_check(this, UNIAPIError);
+            var _this;
+            _this = _super.call(this, message);
+            _define_property(_assert_this_initialized(_this), "ability", void 0);
+            _define_property(_assert_this_initialized(_this), "api", void 0);
+            _define_property(_assert_this_initialized(_this), "params", void 0);
+            _define_property(_assert_this_initialized(_this), "output", void 0);
+            _define_property(_assert_this_initialized(_this), "statusCode", void 0 // 兼容老数据结构
+            );
+            _define_property(_assert_this_initialized(_this), "data", void 0 // 兼容老数据结构
+            );
+            _define_property(_assert_this_initialized(_this), "type", void 0 // 兼容老数据结构
+            );
+            _this.name = "UNIAPIError";
+            _this.ability = ability;
+            _this.api = api;
+            _this.params = params;
+            _this.output = output;
+            _this.statusCode = output.statusCode;
+            _this.data = output.data;
+            _this.type = output.type;
+            return _this;
+        }
+        return UNIAPIError;
+    }(_wrap_native_super(Error));
+    var asyncErrorBoundary = function(e) {
+        throw e;
+    };
+    var syncErrorBoundary = function(e) {
+        throw e;
+    };
+    function setAsyncErrorBoundary(func) {
+        asyncErrorBoundary = func;
+    }
+    function setSyncErrorBoundary(func) {
+        syncErrorBoundary = func;
+    }
+
+    var context = dist.getContext();
+    var inWormhole = !!context;
+    var isServer = isNode || inWormhole;
+    var __PLATFORM__ = inWormhole ? Server : Client;
+    // 删除掉 function 形式的参数，这些参数是用来设计给事件用的。
+    function getJson(params) {
+        var json = {};
+        for(var key in params || {}){
+            if (typeof params[key] !== "function") {
+                json[key] = params[key];
+            }
+        }
+        return json;
+    }
+    function needCallback(callbackParams) {
+        return callbackParams.statusCode !== StatusCodes.Finish;
+    }
+    function transformCallbackParams(originCallbackParams) {
+        var callbackParams = _object_spread_props(_object_spread({}, originCallbackParams), {
+            originStatusCode: originCallbackParams === null || originCallbackParams === void 0 ? void 0 : originCallbackParams.statusCode
+        });
+        // 100 以下的 statusCode 统一处理成 StatusCodes.Success，方便业务判断。
+        // 99 作为持续回调设计给引擎/容器释放 JSValue 防止内存泄漏，不需要透出给前端业务开发者。
+        if ((originCallbackParams === null || originCallbackParams === void 0 ? void 0 : originCallbackParams.statusCode) < StatusCodes.Finish) {
+            callbackParams.statusCode = StatusCodes.Success;
+        }
+        return callbackParams;
+    }
+    function syncCall(ability, api, params, options) {
+        var _ref = options || {}, _ref_needThrowError = _ref.needThrowError, needThrowError = _ref_needThrowError === void 0 ? true : _ref_needThrowError;
+        var jsonParams = getJson(params);
+        var res = __PLATFORM__.syncCall(ability, api, jsonParams);
+        var transformRes = transformCallbackParams(res);
+        if (!isServer && (typeof transformRes === "undefined" || transformRes.statusCode !== StatusCodes.Success)) {
+            var err = new UNIAPIError("Error in syncCall:".concat(ability, "-").concat(api, ": params: ").concat(JSON.stringify(jsonParams), ", output: ").concat(JSON.stringify(transformRes)), ability, api, jsonParams, transformRes);
+            needThrowError && syncErrorBoundary(err);
+        }
+        return transformRes;
+    }
+    function asyncCall(ability, api) {
+        var params = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {}, callback = arguments.length > 3 ? arguments[3] : void 0;
+        var eventMap = {};
+        Object.keys(params).forEach(function(key) {
+            var param = params[key];
+            if (typeof param === "function") {
+                eventMap[key.toLowerCase()] = param;
+            }
+        });
+        var isFirst = true;
+        return new Promise(function(resolve, reject) {
+            var jsonParams = getJson(params);
+            __PLATFORM__.asyncCall(ability, api, jsonParams, function(callbackParams) {
+                // 99 设计给容器作为释放，不需要给业务感知。
+                if (callbackParams.statusCode === StatusCodes.Finish) {
+                    return;
+                }
+                var transformedCallbackParams = transformCallbackParams(callbackParams);
+                if (typeof callback === "function" && needCallback(callbackParams)) {
+                    callback(transformedCallbackParams);
+                }
+                // 第一次结果对应客户端中的 return，属于调用是否成功。
+                if (isFirst) {
+                    if (transformedCallbackParams.statusCode === StatusCodes.Success) {
+                        resolve(transformedCallbackParams);
+                    } else {
+                        var err = new UNIAPIError("Error in asyncCall:".concat(ability, "-").concat(api, ": params: ").concat(JSON.stringify(jsonParams), ", output: ").concat(JSON.stringify(transformedCallbackParams)), ability, api, jsonParams, transformedCallbackParams);
+                        reject(err);
+                    }
+                    isFirst = false;
+                }
+                // statusCode 不为 None 才处理事件。
+                if (transformedCallbackParams.originStatusCode !== StatusCodes.None) {
+                    // 处理事件。
+                    if (transformedCallbackParams.statusCode !== StatusCodes.Success) {
+                        // statusCode > 100 直接抛出异常事件。
+                        if (typeof params["onError"] === "function") {
+                            params["onError"](transformedCallbackParams);
+                        }
+                    } else if (transformedCallbackParams.type) {
+                        var type = transformedCallbackParams.type;
+                        // 没有 on 的时候补齐 on，大小写无感。
+                        if (!/^on/.test(type)) {
+                            type = "on".concat(type.toLowerCase());
+                        } else {
+                            type = type.toLowerCase();
+                        }
+                        var func = eventMap[type];
+                        if (typeof func === "function") {
+                            func(transformedCallbackParams.data || {});
+                        }
+                    }
+                }
+            });
+        }).catch(asyncErrorBoundary);
+    }
+
+    var Bridge = /*#__PURE__*/Object.freeze({
+        __proto__: null,
+        get StatusCodes () { return StatusCodes; },
+        UNIAPIError: UNIAPIError,
+        asyncCall: asyncCall,
+        get asyncErrorBoundary () { return asyncErrorBoundary; },
+        setAsyncErrorBoundary: setAsyncErrorBoundary,
+        setSyncErrorBoundary: setSyncErrorBoundary,
+        syncCall: syncCall,
+        get syncErrorBoundary () { return syncErrorBoundary; }
+    });
+
+    window.Bridge = Bridge;
+
+}));

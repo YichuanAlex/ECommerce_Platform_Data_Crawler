@@ -1,0 +1,2840 @@
+{
+    "store": {
+        "errorRedirectUrl": "/",
+        "isPre": false,
+        "$likeMallText": "关注",
+        "$likeMallEntryTip": "关注的店铺可在个人中心的“店铺关注”入口查看",
+        "preRenderBannerSrc": null,
+        "preRenderHideNoFirstScreenContent": false,
+        "preRenderShowMock": false,
+        "initDataObj": {
+            "goods": {
+                "serverTime": 1750862707,
+                "serverTimeTen": 17508627070,
+                "weakenGoodsName": 0,
+                "catID": 17379,
+                "goodsID": 654421287835,
+                "brandId": 1470863,
+                "goodsName": "软风研究社好棉裤安心裤大码安睡裤夜用裤型卫生巾透气产妇姨妈巾",
+                "shareDesc": "软风研究社好棉裤安心裤大码安睡裤夜用裤型卫生巾透气产妇姨妈巾",
+                "goodsType": 1,
+                "localGroups": [],
+                "hasLocalGroup": 0,
+                "topGallery": [
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/f9c24dd6-41fc-46b4-8798-099b776d3c54.jpeg.a.jpeg",
+                        "id": 1217551588055,
+                        "aspectRatio": 1
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/cb9aecc2-7a31-4908-80cc-94230c24e3a8.jpeg.a.jpeg",
+                        "id": 1217551588056,
+                        "aspectRatio": 1
+                    },
+                    {
+                        "url": "https://img.pddpic.com/garner-api-new/cd20c618b21e4555e302416842e06868.jpeg",
+                        "id": 1217551588057,
+                        "aspectRatio": 1
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/ff22ae62-70e4-4a66-a1a1-63bd1aeb46b4.jpeg.a.jpeg",
+                        "id": 1217551588058,
+                        "aspectRatio": 1
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/085b1f7a-377b-44ac-b979-b2122c38ea43.jpeg.a.jpeg",
+                        "id": 1217551588059,
+                        "aspectRatio": 1
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/08cfcf88-93ad-4693-a6ee-07223b84fec6.jpeg.a.jpeg",
+                        "id": 1217551588060,
+                        "aspectRatio": 1
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/fdcb8d78-ae02-40b7-9eb7-d29c1f273b6e.jpeg.a.jpeg",
+                        "id": 1217551588061,
+                        "aspectRatio": 1
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/ae507621-697a-48dd-b50d-594b52363600.jpeg.a.jpeg",
+                        "id": 1217551588062,
+                        "aspectRatio": 1
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/08cfcf88-93ad-4693-a6ee-07223b84fec6.jpeg.a.jpeg",
+                        "id": 1217551588063,
+                        "aspectRatio": 1
+                    }
+                ],
+                "viewImageData": [
+                    "https://img.pddpic.com/mms-material-img/2024-09-10/f9c24dd6-41fc-46b4-8798-099b776d3c54.jpeg.a.jpeg",
+                    "https://img.pddpic.com/mms-material-img/2024-09-10/cb9aecc2-7a31-4908-80cc-94230c24e3a8.jpeg.a.jpeg",
+                    "https://img.pddpic.com/garner-api-new/cd20c618b21e4555e302416842e06868.jpeg",
+                    "https://img.pddpic.com/mms-material-img/2024-09-10/ff22ae62-70e4-4a66-a1a1-63bd1aeb46b4.jpeg.a.jpeg",
+                    "https://img.pddpic.com/mms-material-img/2024-09-10/085b1f7a-377b-44ac-b979-b2122c38ea43.jpeg.a.jpeg",
+                    "https://img.pddpic.com/mms-material-img/2024-09-10/08cfcf88-93ad-4693-a6ee-07223b84fec6.jpeg.a.jpeg",
+                    "https://img.pddpic.com/mms-material-img/2024-09-10/fdcb8d78-ae02-40b7-9eb7-d29c1f273b6e.jpeg.a.jpeg",
+                    "https://img.pddpic.com/mms-material-img/2024-09-10/ae507621-697a-48dd-b50d-594b52363600.jpeg.a.jpeg",
+                    "https://img.pddpic.com/mms-material-img/2024-09-10/08cfcf88-93ad-4693-a6ee-07223b84fec6.jpeg.a.jpeg"
+                ],
+                "detailGallery": [
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/f9c24dd6-41fc-46b4-8798-099b776d3c54.jpeg.a.jpeg",
+                        "width": 1280,
+                        "height": 1280
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/2445a50b-bdb9-4967-a295-d9979431f508.jpeg.a.jpeg",
+                        "width": 750,
+                        "height": 300
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/0b6df18c-604d-4206-9ac2-d033615149bf.jpeg.a.jpeg",
+                        "width": 662,
+                        "height": 1500
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/0dec86a4-5356-428a-ba9f-faea7044097f.jpeg.a.jpeg",
+                        "width": 790,
+                        "height": 786
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/2983e148-5a80-4389-a364-0514739c55ac.jpeg.a.jpeg",
+                        "width": 731,
+                        "height": 1499
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/bc8e4765-d55f-4659-8153-1455dbe09755.jpeg.a.jpeg",
+                        "width": 699,
+                        "height": 1498
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/0d0fe235-97bd-4bc3-bc0d-c1eca22c726e.jpeg.a.jpeg",
+                        "width": 790,
+                        "height": 1472
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/afff23b3-d8f6-434c-9ff4-2d1bcb5f0de9.jpeg.a.jpeg",
+                        "width": 790,
+                        "height": 1486
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/a47b9151-49e1-4b41-b58d-d52462fb011f.jpeg.a.jpeg",
+                        "width": 607,
+                        "height": 1500
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/9346ed64-6425-4416-8c29-6ec986141d4e.jpeg.a.jpeg",
+                        "width": 686,
+                        "height": 1498
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/420d6f73-96cb-4f20-94bf-b74d20cfa089.jpeg.a.jpeg",
+                        "width": 790,
+                        "height": 1404
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/6bb809c3-786e-46cf-a82c-9ddcd3d34b51.jpeg.a.jpeg",
+                        "width": 790,
+                        "height": 1190
+                    },
+                    {
+                        "url": "https://img.pddpic.com/mms-material-img/2024-09-10/81bbf46f-0cba-459f-93ad-8d1b41c73c1a.jpeg.a.jpeg",
+                        "width": 790,
+                        "height": 1052
+                    }
+                ],
+                "videoGallery": [],
+                "descVideoGallery": [],
+                "mallID": 354541209,
+                "groupTypes": [
+                    {
+                        "requireNum": "1",
+                        "price": "0",
+                        "groupID": 116482798868,
+                        "startTime": 1451577600,
+                        "endTime": 2082729600,
+                        "orderLimit": 999999
+                    },
+                    {
+                        "requireNum": "2",
+                        "price": "0",
+                        "groupID": 116482798869,
+                        "startTime": 1451577600,
+                        "endTime": 2082729600,
+                        "orderLimit": 999999
+                    }
+                ],
+                "skus": [
+                    {
+                        "skuId": 1641968809983,
+                        "goodsId": 654421287835,
+                        "thumbUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/f9c24dd6-41fc-46b4-8798-099b776d3c54.jpeg.a.jpeg",
+                        "initQuantity": 0,
+                        "quantity": 996,
+                        "limitQuantity": 999999,
+                        "soldQuantity": 0,
+                        "defaultQuantity": 100,
+                        "isOnsale": 1,
+                        "spec": "25415889527,25537207173",
+                        "specs": [
+                            {
+                                "spec_key": "款式",
+                                "spec_value": "天鹅绒云感透气【80-160斤】均码",
+                                "spec_key_id": 1218,
+                                "spec_value_id": 25415889527,
+                                "custom": false
+                            },
+                            {
+                                "spec_key": "组合",
+                                "spec_value": "好棉裤 【3包共6条】",
+                                "spec_key_id": 2774,
+                                "spec_value_id": 25537207173,
+                                "custom": false
+                            }
+                        ],
+                        "price": 0,
+                        "normalPrice": "45",
+                        "groupPrice": "30.01",
+                        "oldGroupPrice": 3001,
+                        "marketPrice": 0,
+                        "weight": 0,
+                        "yellowLabelList": [
+                            {
+                                "labelText": "2件9.5折",
+                                "labelType": "single_goods_percentage_event"
+                            }
+                        ],
+                        "previewPriority": 0,
+                        "startTime": 0,
+                        "endTime": 0,
+                        "staticLimitQuantity": 999999,
+                        "attribute": "{\"skuPreSaleTime\":0}",
+                        "batchSn": "A0054VC-756903806785521305",
+                        "groupTip": "券前¥30.01",
+                        "groupTipType": 5,
+                        "groupTipColor": "#58595B",
+                        "groupTipFont": 14,
+                        "normalSavePrice": "14.99",
+                        "priceDisplay": {
+                            "prefix": "券后",
+                            "rmb": "¥",
+                            "price": "10.01"
+                        },
+                        "skuID": 1641968809983,
+                        "skuExpansionPrice": "0"
+                    }
+                ],
+                "thumbUrl": "https://img.pddpic.com/gaudit-image/2024-09-27/fae69a8758ce1dca093bc0319c2fa850.jpeg",
+                "hdThumbUrl": "https://img.pddpic.com/gaudit-image/2024-09-27/ec23032c7b5459797cf0f116e08bbe21.jpeg",
+                "eventType": 0,
+                "isApp": 0,
+                "isFreshmanApp": 0,
+                "sideSalesTip": "已拼12包",
+                "catID1": 17285,
+                "catID2": 17294,
+                "catID3": 17379,
+                "catID4": 0,
+                "spuID": 0,
+                "eventComing": false,
+                "isSpike": false,
+                "isTodaySpike": false,
+                "isTomorrowSpike": false,
+                "isSpikeComing": false,
+                "overseaType": 0,
+                "gpv": null,
+                "quickRefund": false,
+                "rv": true,
+                "maxNormalPrice": "45",
+                "minNormalPrice": "45",
+                "maxGroupPrice": "30.01",
+                "minGroupPrice": "30.01",
+                "maxOnSaleGroupPrice": "30.01",
+                "minOnSaleGroupPrice": "30.01",
+                "maxOnSaleGroupPriceInCent": 3001,
+                "minOnSaleGroupPriceInCent": 3001,
+                "maxOnSaleNormalPrice": "45",
+                "minOnSaleNormalPrice": "45",
+                "unselectNormalSavePrice": "14.99",
+                "oldMinOnSaleGroupPriceInCent": 3001,
+                "skipGoodsIDs": [
+                    "0"
+                ],
+                "tag": null,
+                "icon": null,
+                "tagIcon": [],
+                "isSecondHand": 0,
+                "appClientOnly": 0,
+                "isColdGoods": 1,
+                "goodsProperty": [
+                    {
+                        "key": "品牌",
+                        "values": [
+                            "软风"
+                        ],
+                        "ref_pid": 310,
+                        "reference_id": 1470863
+                    },
+                    {
+                        "key": "单包片数",
+                        "values": [
+                            "2片"
+                        ],
+                        "ref_pid": 1215,
+                        "reference_id": 0
+                    },
+                    {
+                        "key": "包数",
+                        "values": [
+                            "2包"
+                        ],
+                        "ref_pid": 1212,
+                        "reference_id": 0
+                    },
+                    {
+                        "key": "适用人群",
+                        "values": [
+                            "通用"
+                        ],
+                        "ref_pid": 338,
+                        "reference_id": 0
+                    },
+                    {
+                        "key": "添加成分",
+                        "values": [
+                            "其它"
+                        ],
+                        "ref_pid": 2311,
+                        "reference_id": 0
+                    },
+                    {
+                        "key": "生产日期",
+                        "values": [
+                            "2024-06-06"
+                        ],
+                        "ref_pid": 405,
+                        "reference_id": 0
+                    },
+                    {
+                        "key": "保质期",
+                        "values": [
+                            "1080天"
+                        ],
+                        "ref_pid": 406,
+                        "reference_id": 0
+                    },
+                    {
+                        "key": "腰型",
+                        "values": [
+                            "中腰"
+                        ],
+                        "ref_pid": 350,
+                        "reference_id": 0
+                    }
+                ],
+                "skuProperty": [],
+                "propertyShowNum": 6,
+                "linePrice": "81",
+                "priceStyle": 0,
+                "quicklyExpire": {},
+                "userNoticeDynamic": {
+                    "notice": "",
+                    "degrade_notice": "",
+                    "notice_type": 0,
+                    "priority": 1,
+                    "type": 0
+                },
+                "goodsExpansionPrice": "0",
+                "beforeRemindSeconds": 300,
+                "shareTitle": "30.01元 软风研究社好棉裤安心裤大码安睡裤夜用裤型卫生巾透气产妇姨妈巾 拼多多",
+                "bottomBanner": null,
+                "isAppFlow": true,
+                "isPersonalFav": 0,
+                "groupNumFull": false,
+                "showHistoryGroup": 1,
+                "shareLink": "goods1.html?goods_id=654421287835&page_from=0&pxq_secret_key=F35VQQJPONOJG65NMHIPZKGBOHXGC27VBCUVREQ3SKYFJDXZDQXQ",
+                "promptExplain": "",
+                "isAbnormalStatus": false,
+                "statusExplain": "",
+                "checkQuantity": 1,
+                "destinationUrl": "order_checkout.html",
+                "hideMall": false,
+                "isMallRec": false,
+                "status": 1,
+                "isGoodsOnSale": true,
+                "isSkuOnSale": true,
+                "isOnSale": true,
+                "quantity": 996,
+                "propertyCardClick": 0,
+                "showRecTitle": 1,
+                "showRec": 1,
+                "options": [
+                    54,
+                    9,
+                    60,
+                    13
+                ],
+                "eventTime": 1750862707,
+                "mallService": {
+                    "service": [
+                        {
+                            "id": 3,
+                            "type": "退货包运费",
+                            "type_color": "#58595B",
+                            "dialog_type": "退货包运费",
+                            "dialog_type_color": "#151516",
+                            "desc": "订单发货后90天内申请退货、换货或维修，将自动减免/返还首重运费",
+                            "top": 1,
+                            "top_type": 1,
+                            "navigation": 0,
+                            "navigation_url": "",
+                            "show_tip": "收货后如不满意，可以免费退货",
+                            "detail_hidden": 0
+                        },
+                        {
+                            "id": 1,
+                            "type": "全场包邮",
+                            "type_color": "#58595B",
+                            "dialog_type": "全场包邮",
+                            "dialog_type_color": "#151516",
+                            "desc": "所有商品包邮",
+                            "top": 0,
+                            "top_type": 0,
+                            "navigation": 0,
+                            "navigation_url": "",
+                            "detail_hidden": 0
+                        },
+                        {
+                            "id": 2,
+                            "type": "7天无理由退货",
+                            "type_color": "#58595B",
+                            "dialog_type": "7天无理由退货",
+                            "dialog_type_color": "#151516",
+                            "desc": "满足相应条件时，消费者可申请“7天无理由退货”，其中定制订单不支持“7天无理由退货”",
+                            "top": 0,
+                            "top_type": 0,
+                            "navigation": 0,
+                            "navigation_url": "",
+                            "detail_hidden": 0
+                        },
+                        {
+                            "id": 13,
+                            "type": "48小时发货",
+                            "type_color": "#58595B",
+                            "dialog_type": "48小时发货",
+                            "dialog_type_color": "#151516",
+                            "desc": "订单支付成功后48小时内发货，若未在48小时内发货，消费者将会收到至少3元无门槛代金券",
+                            "top": 0,
+                            "top_type": 0,
+                            "navigation": 0,
+                            "navigation_url": "",
+                            "detail_hidden": 0
+                        },
+                        {
+                            "id": 24,
+                            "type": "极速退款",
+                            "type_color": "#58595B",
+                            "dialog_type": "极速退款",
+                            "dialog_type_color": "#151516",
+                            "desc": "满足相应条件时，拼单成功12小时内，待发货状态下，提交退款申请将立即退款",
+                            "top": 0,
+                            "top_type": 0,
+                            "navigation": 0,
+                            "navigation_url": "",
+                            "detail_hidden": 0
+                        }
+                    ],
+                    "vipService": {},
+                    "honorService": {}
+                },
+                "skuDirectOrder": false,
+                "vasTemplateId": {},
+                "skuNewPricePrefix": "券前",
+                "callWaistRecExtraParams": {
+                    "shield_mall_goods_rec": 1
+                },
+                "ui": {
+                    "price_section": {
+                        "type": "normal",
+                        "data": {
+                            "after_coupon_tag_desc": "券后¥10.01",
+                            "after_coupon_tag_rich": [
+                                {
+                                    "txt": "券后",
+                                    "font": 16,
+                                    "type": 1
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 3
+                                },
+                                {
+                                    "txt": "¥",
+                                    "font": 17,
+                                    "type": 1
+                                },
+                                {
+                                    "txt": "10.01",
+                                    "font": 17,
+                                    "type": 1
+                                }
+                            ],
+                            "after_coupon_jump_url": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "after_coupon_has_suffix": 0,
+                            "after_coupon_fb_amount": 0
+                        }
+                    },
+                    "new_price_section": {
+                        "is_normal": 1,
+                        "type": "normal",
+                        "price": "10.01",
+                        "price_rich": [
+                            {
+                                "txt": "10",
+                                "font": 28,
+                                "type": 1,
+                                "can_hidden": false,
+                                "min_font": 19
+                            },
+                            {
+                                "txt": ".01",
+                                "font": 15,
+                                "type": 1,
+                                "can_hidden": false,
+                                "min_font": 13
+                            }
+                        ],
+                        "prefix": "券后",
+                        "prefix_rich": [
+                            {
+                                "txt": "券后",
+                                "font": 14,
+                                "type": 1
+                            },
+                            {
+                                "type": 2,
+                                "space": 2
+                            },
+                            {
+                                "txt": "¥",
+                                "font": 16,
+                                "type": 1
+                            }
+                        ],
+                        "prefix_icon": {
+                            "url": "https://commimg.pddpic.com/upload/ddpay/11a3cba0-62fa-4612-bf2c-eae726dc9936.png",
+                            "width": 17,
+                            "height": 16
+                        },
+                        "color": "#E02E24",
+                        "bg_color": "#FFFFFF",
+                        "after_coupon": {
+                            "tag_rich": [
+                                {
+                                    "txt": "券后",
+                                    "font": 16,
+                                    "type": 1
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 3
+                                },
+                                {
+                                    "txt": "¥",
+                                    "font": 17,
+                                    "type": 1
+                                },
+                                {
+                                    "txt": "10.01",
+                                    "font": 17,
+                                    "type": 1
+                                }
+                            ],
+                            "click_url": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "has_suffix": 0,
+                            "fb_amount": 0,
+                            "color": "#FFFFFF",
+                            "bg_color": "#E02E24",
+                            "click_color": "#910A0A"
+                        },
+                        "desc_labels": [
+                            "已拼12包"
+                        ],
+                        "desc_labels_for_carousel": [],
+                        "desc_color": "#58595B",
+                        "imp_tracks": [
+                            {
+                                "extra": {
+                                    "single_price": "45",
+                                    "line_price": "81",
+                                    "sales_tip": "已拼12包",
+                                    "prefix_text": "券后",
+                                    "type": 0,
+                                    "prefix_icon": "https://commimg.pddpic.com/upload/ddpay/11a3cba0-62fa-4612-bf2c-eae726dc9936.png",
+                                    "pindan_price": "30.01",
+                                    "cp_price": "10.01",
+                                    "desc_labels": "已拼12包"
+                                },
+                                "page_el_sn": "5049756"
+                            },
+                            {
+                                "extra": {
+                                    "details": 2000
+                                },
+                                "page_el_sn": "7665880"
+                            }
+                        ],
+                        "price_tag": {
+                            "txt": "已优惠20元",
+                            "color": "#FFFFFF",
+                            "click_url": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "bg_color": "#E02E24",
+                            "click_bg_color": "#C51E14",
+                            "click_color": "#EDBBB8",
+                            "click_track": {
+                                "extra": {
+                                    "details": 2000
+                                },
+                                "page_el_sn": "7665880"
+                            },
+                            "hidden_arrow": 1,
+                            "style": 1
+                        },
+                        "is_elder": 0,
+                        "use_new_desc_labels_rule": false
+                    },
+                    "new_bottom_section": {
+                        "left_button": {
+                            "title": [
+                                {
+                                    "txt": "¥",
+                                    "font": 19,
+                                    "type": 1,
+                                    "can_hidden": false,
+                                    "min_font": 14
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 1
+                                },
+                                {
+                                    "txt": "45",
+                                    "font": 19,
+                                    "type": 1,
+                                    "can_hidden": false,
+                                    "min_font": 14
+                                }
+                            ],
+                            "desc": "单独购买",
+                            "click_action": "directBuy",
+                            "text_color": "#FFFFFF",
+                            "bg_color": "#F4ABA7",
+                            "text_click_color": "#F9E0DF",
+                            "bg_click_color": "#EB9894",
+                            "imp_tracks": [
+                                {
+                                    "extra": {
+                                        "type": 0
+                                    },
+                                    "page_el_sn": "99809"
+                                }
+                            ],
+                            "click_track": {
+                                "extra": {
+                                    "type": 0
+                                },
+                                "page_el_sn": "99809"
+                            }
+                        },
+                        "right_button": {
+                            "title": [
+                                {
+                                    "txt": "券后",
+                                    "font": 17,
+                                    "type": 1,
+                                    "can_hidden": false,
+                                    "min_font": 14
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 3
+                                },
+                                {
+                                    "txt": "¥",
+                                    "font": 19,
+                                    "type": 1,
+                                    "can_hidden": false,
+                                    "min_font": 14
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 1
+                                },
+                                {
+                                    "txt": "10",
+                                    "font": 19,
+                                    "type": 1,
+                                    "can_hidden": false,
+                                    "min_font": 14
+                                },
+                                {
+                                    "txt": ".01",
+                                    "font": 13,
+                                    "type": 1,
+                                    "can_hidden": false,
+                                    "min_font": 14
+                                }
+                            ],
+                            "desc": "发起拼单",
+                            "click_action": "groupBuy",
+                            "text_color": "#FFFFFF",
+                            "bg_color": "#E02E24",
+                            "text_click_color": "#EDBBB8",
+                            "bg_click_color": "#C51E14",
+                            "use_backup": 0,
+                            "imp_tracks": [
+                                {
+                                    "extra": {
+                                        "price_prefix_type": 0,
+                                        "bottom_type": "after_coupon",
+                                        "title": "券后",
+                                        "time_desc_suffix": "发起拼单"
+                                    },
+                                    "page_el_sn": "99811"
+                                },
+                                {
+                                    "extra": {
+                                        "bottom_section_style": 0
+                                    },
+                                    "page_el_sn": "9778506"
+                                }
+                            ],
+                            "click_track": {
+                                "extra": {
+                                    "price_prefix_type": 0,
+                                    "bottom_type": "after_coupon",
+                                    "title": "券后",
+                                    "time_desc_suffix": "发起拼单"
+                                },
+                                "page_el_sn": "99811"
+                            }
+                        }
+                    },
+                    "title_section": {
+                        "pay_part": {
+                            "type": 5,
+                            "icon": {
+                                "id": -1,
+                                "url": "",
+                                "click_notice": "订单发货后90天内申请退货、换货或维修，将自动减免/返还首重运费"
+                            },
+                            "text": {
+                                "txt": "不满意包退货运费，退换无忧",
+                                "color": "#25B513",
+                                "prefix_txt": "退货包运费",
+                                "click_color": "#1F9347",
+                                "background_color": "#EEF9ED",
+                                "background_click_color": "#DCF3D9"
+                            },
+                            "style": 2
+                        },
+                        "channel_icon_bef": []
+                    },
+                    "live_section": {
+                        "on_live": 0,
+                        "float_from_type": 1,
+                        "float_info": {
+                            "if_goods_show": "false",
+                            "replay_info": "{\"width\":360,\"height\":640,\"recommendOnewayRequestError\":false,\"floatWindowAddBorder\":true,\"feed_id\":\"5293678584338220470\",\"mall_id\":null,\"event_id\":2707633429,\"event_feed_id\":\"5293678584338220470\",\"show_id\":\"5293678584338220470\",\"total_pv\":null,\"link_url\":\"live_room.html?ext=%7B%22feed_scene_id%22%3A651%7D&show_red_box=0&promotion_ui_style=2&biz_type=1&scene_id=50&goods_id=654421287835&use_hub=1&feed_id=5293678584338220470&page_from=601109&sub_biz_type=101&container_hub_type=hub%2Fzb_promotions_scene%2Fweak&head_ids=5293678584338220470&hub_type=hub%2Fzb_promotions_scene%2Fweak&video_from_link=goods.html%3Fgoods_id%3D654421287835&location_required=0\",\"video_url\":null,\"duration_millis\":null,\"goods_id\":654421287835,\"is_fake_customer_mode\":false,\"cover_url\":\"https://video-snapshot01.pddpic.com/lupus-cover-b/talent-video-b/2022-12-31/02bd226b-ceb6-4d54-8bd8-f98ccbfd744d.jpeg\",\"small_window_player_info\":\"{\\\"if_h265\\\":false,\\\"if_soft_h265\\\":false,\\\"video_url_info\\\":\\\"{\\\\\\\"h265_videos\\\\\\\":[],\\\\\\\"videos\\\\\\\":[{\\\\\\\"bitrate\\\\\\\":1187925,\\\\\\\"duration\\\\\\\":5047,\\\\\\\"height\\\\\\\":640,\\\\\\\"host_list\\\\\\\":[{\\\\\\\"host\\\\\\\":\\\\\\\"video4-1.pddugc.com\\\\\\\"},{\\\\\\\"host\\\\\\\":\\\\\\\"video4-5.pddpic.com\\\\\\\"},{\\\\\\\"host\\\\\\\":\\\\\\\"video4-2.pddugc.com\\\\\\\"}],\\\\\\\"is_default\\\\\\\":true,\\\\\\\"url\\\\\\\":\\\\\\\"http://video4-1.pddpic.com/tower-video-b/41d4d8ef724f62b6f31258ef936dd68f607d5a5e.crop.highlights.f20.mp4?k=113b1abb671002215a3c47561ade023e&t=1751121907\\\\\\\",\\\\\\\"width\\\\\\\":360}]}\\\"}\",\"replay_windows_prec\":\"{\\\"related_feed_id\\\":\\\"5293678584338220470\\\"}\",\"float_windows_tips\":\"商品讲解\",\"float_windows_style\":null,\"is_float_window_add_border\":true}",
+                            "type": "1"
+                        }
+                    },
+                    "bubble_section": {
+                        "show_bubble": 1
+                    },
+                    "sku_section": {
+                        "view_style": 0,
+                        "view_style_v2": 0,
+                        "yellow_label_list": [
+                            {
+                                "label_text": "2件9.5折",
+                                "label_type": "single_goods_percentage_event"
+                            }
+                        ],
+                        "sku_unselect_tip": "券前¥30.01",
+                        "sku_unselect_tip_type": 5,
+                        "sku_unselect_tip_color": "#58595B",
+                        "sku_unselect_tip_font": 14,
+                        "sku_take_coupon": 1,
+                        "consult_promotion_price": 1,
+                        "price_display": {
+                            "prefix": "券后",
+                            "rmb": "¥",
+                            "price": "10.01"
+                        },
+                        "sku_pane_title_suffix_tag": {
+                            "text": "退货包运费",
+                            "text_color": "#FFFFFF",
+                            "text_click_color": "#BCDEC8",
+                            "bg_color": "#25B513",
+                            "bg_click_color": "#1F9347",
+                            "border_color": "#25B513",
+                            "border_click_color": "#1F9347",
+                            "click_notice": "订单发货后90天内申请退货、换货或维修，将自动减免/返还首重运费"
+                        },
+                        "imp_tracks": []
+                    },
+                    "bottom_buying_section": {
+                        "type": "after_coupon",
+                        "data": {
+                            "price_prefix": "券后",
+                            "after_coupon_price": 1001,
+                            "price_bottom_desc": "发起拼单"
+                        }
+                    },
+                    "more_pop_navi_button": {
+                        "navi_list": [
+                            {
+                                "icon_id": "59210",
+                                "text": "常见问题",
+                                "url": "questions.html"
+                            },
+                            {
+                                "icon_id": "59213",
+                                "text": "意见反馈",
+                                "url": "personal_feedback.html"
+                            },
+                            {
+                                "icon_id": "59212",
+                                "text": "举报商品",
+                                "url": "comm_goods_complaint.html?goods_id=654421287835&counterfeitBrandProducts=false"
+                            }
+                        ]
+                    },
+                    "price_explain_section": {
+                        "pulldown_title": "点击查看商品价格说明"
+                    },
+                    "photo_bottom_section": {
+                        "price_rich": [
+                            {
+                                "txt": "10",
+                                "font": 24,
+                                "type": 1,
+                                "can_hidden": false,
+                                "min_font": 19
+                            },
+                            {
+                                "txt": ".01",
+                                "font": 13,
+                                "type": 1,
+                                "can_hidden": false,
+                                "min_font": 13
+                            }
+                        ],
+                        "prefix_rich": [
+                            {
+                                "txt": "券后",
+                                "font": 13,
+                                "type": 1
+                            },
+                            {
+                                "type": 2,
+                                "space": 2
+                            },
+                            {
+                                "txt": "¥",
+                                "font": 15,
+                                "type": 1
+                            }
+                        ],
+                        "color": "#FFFFFF",
+                        "after_coupon": {
+                            "tag_rich": [
+                                {
+                                    "txt": "券后",
+                                    "font": 16,
+                                    "type": 1
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 3
+                                },
+                                {
+                                    "txt": "¥",
+                                    "font": 17,
+                                    "type": 1
+                                },
+                                {
+                                    "txt": "10.01",
+                                    "font": 17,
+                                    "type": 1
+                                }
+                            ],
+                            "click_url": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "has_suffix": 0,
+                            "fb_amount": 0,
+                            "color": "#FFFFFF",
+                            "bg_color": "#E02E24",
+                            "click_color": "#910A0A"
+                        },
+                        "desc_color": "#9C9C9C",
+                        "price_tag": {
+                            "txt": "已优惠20元",
+                            "color": "#FFFFFF",
+                            "click_url": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "hidden_arrow": 1
+                        },
+                        "open_group_txt": "去拼单",
+                        "use_new_desc_labels_rule": false
+                    }
+                },
+                "neighborGroup": {
+                    "neighbor_status": 1,
+                    "neighbor_data": {
+                        "combine_group": {
+                            "group_total": 3,
+                            "combine_group_list": [
+                                {
+                                    "member_info_list": [
+                                        {
+                                            "nickname": "安***",
+                                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                                            "is_friend": false
+                                        }
+                                    ],
+                                    "member_count": 1,
+                                    "button_desc": "去拼单",
+                                    "group_type": 2,
+                                    "track_list": [
+                                        {
+                                            "page_el_sn": "4264980",
+                                            "extra": {
+                                                "type": 2,
+                                                "button_dsc": "去拼单"
+                                            }
+                                        }
+                                    ],
+                                    "click_track": {
+                                        "page_el_sn": "4264980",
+                                        "extra": {
+                                            "type": 2,
+                                            "button_dsc": "去拼单"
+                                        }
+                                    },
+                                    "sku_params": {}
+                                },
+                                {
+                                    "member_info_list": [
+                                        {
+                                            "nickname": "一***",
+                                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-b3bb567e/XBVNFNoKfIIw_W1gdzWq36Pp0WOeB66wUS6016y4ZxNVg6W1hHNhCVQmMRcD7um2q4JIueRq8uQw9Rft2MFjidqWnbhusM2FnvXs1PWtkYwAW9Dp2BUPzHQQKr5LTU6oUYK8VTi8_b-1lFaDDsuclQ",
+                                            "is_friend": false
+                                        }
+                                    ],
+                                    "member_count": 1,
+                                    "button_desc": "去拼单",
+                                    "group_type": 2,
+                                    "track_list": [
+                                        {
+                                            "page_el_sn": "4264980",
+                                            "extra": {
+                                                "type": 2,
+                                                "button_dsc": "去拼单"
+                                            }
+                                        }
+                                    ],
+                                    "click_track": {
+                                        "page_el_sn": "4264980",
+                                        "extra": {
+                                            "type": 2,
+                                            "button_dsc": "去拼单"
+                                        }
+                                    },
+                                    "sku_params": {}
+                                }
+                            ],
+                            "combine_group_desc": "3人想拼，参与可立即拼成",
+                            "combine_group_popup_title": "3人想拼，可抢先拼单",
+                            "combine_group_popup_footer": "",
+                            "combine_group_button_desc": "去拼单",
+                            "pulldown_group": {
+                                "group_info": {
+                                    "member_info_list": [
+                                        {
+                                            "nickname": "安***",
+                                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                                            "is_friend": false
+                                        }
+                                    ],
+                                    "button_desc": "去拼单",
+                                    "group_type": 2,
+                                    "sku_params": {}
+                                },
+                                "group_title_info": {
+                                    "group_title_desc": "3人想拼，参与可立即拼成",
+                                    "need_join_countdown": false
+                                }
+                            },
+                            "rotation_mill_second": 2000,
+                            "combine_group_list_type": 2,
+                            "start_rotation_mill_second": 1000,
+                            "move_up_group_module_style": 5,
+                            "is_goods_awkward": true,
+                            "extend_map": {
+                                "is_history_and_visitor_group": false,
+                                "is_enhance_local_group": false,
+                                "platform_context": {
+                                    "platform": "H5_FOR_IOS",
+                                    "version": "0.0.0",
+                                    "major_version": 0,
+                                    "minor_version": 0,
+                                    "build_version": 0,
+                                    "bugfix_version": 0,
+                                    "ios_platform": false,
+                                    "android_platform": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "control": {
+                    "require_mall_active_time": 1,
+                    "in_price_tag_gray": 1,
+                    "join_group_txt_gray": 1,
+                    "quantity_check_request_params": {
+                        "from_goods_detail": 1
+                    },
+                    "ai_assistant_enable": false,
+                    "enable_fold_fav_and_mall": false
+                },
+                "transmission": {
+                    "promotion_extend_info": {},
+                    "sku_direct_order_extend_info": {
+                        "service_tag_list": "[\"退货包运费\",\"全场包邮\",\"7天无理由退货\",\"48小时发货\",\"极速退款\"]"
+                    }
+                },
+                "uin": "TRFN2KTBUDX74GDQ2GZ5O7M4AI_GEXDA",
+                "isMobileWeChatPlatform": false,
+                "contextData": {
+                    "isNativePlatform": false,
+                    "hostname": "mobile.yangkeduo.com",
+                    "isMiniProgram": false
+                },
+                "DDType": false,
+                "isDuoDuoSingleGroup": false,
+                "isDuoDuoDoubleGroup": false,
+                "isNewBottomTips": true,
+                "isLowGroupNewBottomTips": false,
+                "combineGroups": {
+                    "groupsTotal": 3,
+                    "combineGroupList": [
+                        {
+                            "memberInfoList": [
+                                {
+                                    "nickname": "安***",
+                                    "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                                    "isFriend": false
+                                }
+                            ],
+                            "memberCount": 1,
+                            "buttonDesc": "去拼单",
+                            "groupType": 2,
+                            "trackList": [
+                                {
+                                    "pageElSn": "4264980",
+                                    "extra": {
+                                        "type": 2,
+                                        "buttonDsc": "去拼单"
+                                    }
+                                }
+                            ],
+                            "clickTrack": {
+                                "pageElSn": "4264980",
+                                "extra": {
+                                    "type": 2,
+                                    "buttonDsc": "去拼单"
+                                }
+                            },
+                            "skuParams": {},
+                            "nickname": "安***",
+                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                            "isFriend": false
+                        },
+                        {
+                            "memberInfoList": [
+                                {
+                                    "nickname": "一***",
+                                    "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-b3bb567e/XBVNFNoKfIIw_W1gdzWq36Pp0WOeB66wUS6016y4ZxNVg6W1hHNhCVQmMRcD7um2q4JIueRq8uQw9Rft2MFjidqWnbhusM2FnvXs1PWtkYwAW9Dp2BUPzHQQKr5LTU6oUYK8VTi8_b-1lFaDDsuclQ",
+                                    "isFriend": false
+                                }
+                            ],
+                            "memberCount": 1,
+                            "buttonDesc": "去拼单",
+                            "groupType": 2,
+                            "trackList": [
+                                {
+                                    "pageElSn": "4264980",
+                                    "extra": {
+                                        "type": 2,
+                                        "buttonDsc": "去拼单"
+                                    }
+                                }
+                            ],
+                            "clickTrack": {
+                                "pageElSn": "4264980",
+                                "extra": {
+                                    "type": 2,
+                                    "buttonDsc": "去拼单"
+                                }
+                            },
+                            "skuParams": {},
+                            "nickname": "一***",
+                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-b3bb567e/XBVNFNoKfIIw_W1gdzWq36Pp0WOeB66wUS6016y4ZxNVg6W1hHNhCVQmMRcD7um2q4JIueRq8uQw9Rft2MFjidqWnbhusM2FnvXs1PWtkYwAW9Dp2BUPzHQQKr5LTU6oUYK8VTi8_b-1lFaDDsuclQ",
+                            "isFriend": false
+                        }
+                    ],
+                    "fixedTopGroupList": [],
+                    "sliderGroupList": [],
+                    "localGroupWithFriend": [],
+                    "localGroupListNew": [],
+                    "historyGroupListNew": [],
+                    "historyVistorListNew": [
+                        {
+                            "memberInfoList": [
+                                {
+                                    "nickname": "安***",
+                                    "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                                    "isFriend": false
+                                }
+                            ],
+                            "memberCount": 1,
+                            "buttonDesc": "去拼单",
+                            "groupType": 2,
+                            "trackList": [
+                                {
+                                    "pageElSn": "4264980",
+                                    "extra": {
+                                        "type": 2,
+                                        "buttonDsc": "去拼单"
+                                    }
+                                }
+                            ],
+                            "clickTrack": {
+                                "pageElSn": "4264980",
+                                "extra": {
+                                    "type": 2,
+                                    "buttonDsc": "去拼单"
+                                }
+                            },
+                            "skuParams": {},
+                            "nickname": "安***",
+                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                            "isFriend": false
+                        },
+                        {
+                            "memberInfoList": [
+                                {
+                                    "nickname": "一***",
+                                    "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-b3bb567e/XBVNFNoKfIIw_W1gdzWq36Pp0WOeB66wUS6016y4ZxNVg6W1hHNhCVQmMRcD7um2q4JIueRq8uQw9Rft2MFjidqWnbhusM2FnvXs1PWtkYwAW9Dp2BUPzHQQKr5LTU6oUYK8VTi8_b-1lFaDDsuclQ",
+                                    "isFriend": false
+                                }
+                            ],
+                            "memberCount": 1,
+                            "buttonDesc": "去拼单",
+                            "groupType": 2,
+                            "trackList": [
+                                {
+                                    "pageElSn": "4264980",
+                                    "extra": {
+                                        "type": 2,
+                                        "buttonDsc": "去拼单"
+                                    }
+                                }
+                            ],
+                            "clickTrack": {
+                                "pageElSn": "4264980",
+                                "extra": {
+                                    "type": 2,
+                                    "buttonDsc": "去拼单"
+                                }
+                            },
+                            "skuParams": {},
+                            "nickname": "一***",
+                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-b3bb567e/XBVNFNoKfIIw_W1gdzWq36Pp0WOeB66wUS6016y4ZxNVg6W1hHNhCVQmMRcD7um2q4JIueRq8uQw9Rft2MFjidqWnbhusM2FnvXs1PWtkYwAW9Dp2BUPzHQQKr5LTU6oUYK8VTi8_b-1lFaDDsuclQ",
+                            "isFriend": false
+                        }
+                    ],
+                    "popupTwoAvatarsStyle": false,
+                    "outTwoAvatarsStyle": false,
+                    "recommendGroup": {},
+                    "firstScreenGroup": {},
+                    "pulldownGroup": {
+                        "groupInfo": {
+                            "memberInfoList": [
+                                {
+                                    "nickname": "安***",
+                                    "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                                    "isFriend": false
+                                }
+                            ],
+                            "buttonDesc": "去拼单",
+                            "groupType": 2,
+                            "skuParams": {}
+                        },
+                        "groupTitleInfo": {
+                            "groupTitleDesc": "3人想拼，参与可立即拼成",
+                            "needJoinCountdown": false
+                        },
+                        "memberInfoList": [
+                            {
+                                "nickname": "安***",
+                                "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                                "isFriend": false
+                            }
+                        ],
+                        "buttonDesc": "去拼单",
+                        "groupType": 2,
+                        "skuParams": {}
+                    }
+                },
+                "combineUserGroup": {},
+                "groupPopupTitle": "3人想拼，可抢先拼单",
+                "groupPopupFooter": "",
+                "groupButtonDesc": "去拼单",
+                "groupDesc": "3人想拼，参与可立即拼成",
+                "rotationMillSecond": 2000,
+                "startRotationMillSecond": 1000,
+                "moveUpGroupModuleStyle": 5,
+                "groupExtendMap": {
+                    "isHistoryAndVisitorGroup": false,
+                    "isEnhanceLocalGroup": false,
+                    "platformContext": {
+                        "platform": "H5_FOR_IOS",
+                        "version": "0.0.0",
+                        "majorVersion": 0,
+                        "minorVersion": 0,
+                        "buildVersion": 0,
+                        "bugfixVersion": 0,
+                        "iosPlatform": false,
+                        "androidPlatform": false
+                    }
+                },
+                "nowTime": 1750862707,
+                "nowTimeTen": 17508627070,
+                "isABTestGoodsPrerenderOC": true,
+                "isAbDirectOrderRepayModifyPanel": true,
+                "isAbDirectOrderMianmiV2": true,
+                "isAbSwitchToWechatIfSignXyhfFailed": false,
+                "hasAddressLine": false,
+                "ignoreShowSkuSelector": false,
+                "useBestPromotion": true,
+                "usePayPromotion": true,
+                "goodsImageQuantityGrey": false,
+                "goodsImageQuantityParams": {},
+                "isABGoodsRecOffset": false,
+                "isABfastGroupBuyQa": false,
+                "isABLongBannerMode": true,
+                "isGoodsBottomAfterCouponRefresh": true,
+                "isABBottomMallIconStyle": false,
+                "isABWxGotoAppEnforce": false,
+                "ifLiveCouponSkuSelector": true,
+                "showGoodsLabel": true,
+                "guideXyhfCountdown": false,
+                "supportGbs": true,
+                "balanceNotEnoughToMianMi": true,
+                "payCanceledToXyhf": true,
+                "applyDuoDuoPayCancelToMianMi": true,
+                "enableSkuMask": true,
+                "bottomBtnIndex": false,
+                "canRefreshAfterOrder": false,
+                "allowOcHosts": [
+                    "mobile.pinduoduo.com"
+                ],
+                "forwardOcHost": "mobile.yangkeduo.com",
+                "livingValidationUrl": "https://renzheng.pinduoduo.com/living-validation/living-validation.html",
+                "useH5FaceCert": true,
+                "bannerHeight": "3.75rem",
+                "isUseRawBackBannerUrl": false
+            },
+            "mall": {
+                "mallId": "354541209",
+                "mallName": "臻柔家居生活馆",
+                "oldMallYears": 5,
+                "oldMallYearsTag": "5年老店",
+                "mallStar": 5,
+                "mallShowType": 0,
+                "mallTransferType": 0,
+                "salesTip": "已拼90万+件",
+                "salesTipV2": "全店已拼90万+件",
+                "salesTipV3": "店铺已拼90万+件",
+                "mallSales": 900000,
+                "mallLogo": "http://t00img.yangkeduo.com/goods/images/2020-08-16/76b24442-0370-49c0-acf7-d7d045bf5b95.jpeg",
+                "goodsNum": 69,
+                "goodsNumDesc": "商品数量: 69",
+                "pddRoute": "mall_page.html?mall_id=354541209&msn=cvabymrrcaw7uefmtw66f4mm6a_axbuy&_sop_rcto=YWLh2-pFtpio5Rq4m2iyin0-TuXTx_3fIjo&mall_info=%7B%22mall_name%22%3A%22%E8%87%BB%E6%9F%94%E5%AE%B6%E5%B1%85%E7%94%9F%E6%B4%BB%E9%A6%86%22%7D",
+                "pddRouteName": "进店逛逛",
+                "mallServiceTag": "客服",
+                "isFlagShip": false,
+                "logoList": [],
+                "mallLogoList": [
+                    {
+                        "logoType": 4,
+                        "logoUrl": "https://promotion.pddpic.com/oms-img-promotion/2025-06-20/8cc6e85e-2e68-4085-9b42-9889a9b86bd2.png",
+                        "logoHeight": 48,
+                        "logoWidth": 171
+                    }
+                ],
+                "mallLogoListV2": [
+                    {
+                        "logoType": 4,
+                        "logoUrl": "https://promotion.pddpic.com/oms-img-promotion/2025-06-20/8cc6e85e-2e68-4085-9b42-9889a9b86bd2.png",
+                        "logoHeight": 48,
+                        "logoWidth": 171
+                    }
+                ],
+                "dsr": {
+                    "descScore": 4.8,
+                    "descStatus": 1,
+                    "logisticsScore": 4.8,
+                    "logisticsStatus": 1,
+                    "serviceScore": 4.8,
+                    "serviceStatus": 1,
+                    "descRankPercent": 83,
+                    "logisticsRankPercent": 83,
+                    "serviceRankPercent": 83,
+                    "descRankStatus": 1,
+                    "logisticsRankStatus": 1,
+                    "serviceRankStatus": 1,
+                    "hideRankInfo": 0,
+                    "mallRatingTextList": [
+                        {
+                            "mallRatingKey": {
+                                "txt": "描述相符",
+                                "color": "#58595B",
+                                "font": 13
+                            },
+                            "mallRatingValue": {
+                                "txt": "高",
+                                "color": "#E02E24",
+                                "font": 11,
+                                "backColor": "#FCE5E5"
+                            }
+                        },
+                        {
+                            "mallRatingKey": {
+                                "txt": "物流服务",
+                                "color": "#58595B",
+                                "font": 13
+                            },
+                            "mallRatingValue": {
+                                "txt": "高",
+                                "color": "#E02E24",
+                                "font": 11,
+                                "backColor": "#FCE5E5"
+                            }
+                        },
+                        {
+                            "mallRatingKey": {
+                                "txt": "服务态度",
+                                "color": "#58595B",
+                                "font": 13
+                            },
+                            "mallRatingValue": {
+                                "txt": "高",
+                                "color": "#E02E24",
+                                "font": 11,
+                                "backColor": "#FCE5E5"
+                            }
+                        }
+                    ],
+                    "mallStar": 5,
+                    "isShowMallStar": true
+                },
+                "isGuideMall": false,
+                "extras": {
+                    "2": false,
+                    "3": false,
+                    "5": 1,
+                    "7": false,
+                    "8": true,
+                    "13": false,
+                    "14": false
+                },
+                "msn": "cvabymrrcaw7uefmtw66f4mm6a_axbuy",
+                "merchantType": 1,
+                "hasMallDecoration": false,
+                "mallHeadTagVo": {
+                    "action": "highLayer",
+                    "actionParams": {
+                        "url": "pdd_mall_lego_pages.html?lego_minversion=5.78.0&minversion=5.78.0&lego_type=v8&lego_ssr_api=%2Fapi%2Fpdd_mall_lego_pages%2Fget_config%2Fpdd_mall_guarantee_layer&source=3&mall_id=354541209",
+                        "name": "pdd_mall_guarantee_layer"
+                    },
+                    "iconUrl": "https://funimg.pddpic.com/d33e814f-b115-4877-8dfb-cf6bb13b0a6e.png",
+                    "iconWidth": 11,
+                    "iconHeight": 13,
+                    "bgImgUrl": "https://funimg.pddpic.com/2021-01-05/50063bdc-47ab-4134-91cf-bc13fe1fa5bb.png",
+                    "title": "店铺保障",
+                    "mallPageHeadShowTagVolist": [
+                        {
+                            "showTagType": 2,
+                            "desc": "退货包运费",
+                            "scriptColor": "#58595B"
+                        },
+                        {
+                            "showTagType": 2,
+                            "desc": "极速退款",
+                            "scriptColor": "#58595B"
+                        },
+                        {
+                            "desc": "保证金",
+                            "scriptColor": "#58595B"
+                        }
+                    ]
+                },
+                "hideShipAddress": false,
+                "mallFavVo": {
+                    "showButton": false,
+                    "mallFavNum": 5785,
+                    "mallFavTag": "粉丝:5500+"
+                },
+                "factoryMallVo": {
+                    "factoryMallFlag": false
+                },
+                "mallID": "354541209",
+                "logo": "https://t00img.yangkeduo.com/goods/images/2020-08-16/76b24442-0370-49c0-acf7-d7d045bf5b95.jpeg"
+            },
+            "liveInfo": null,
+            "queries": {
+                "goods_id": "654421287835"
+            },
+            "isIOS": false,
+            "isSystemIOS": true,
+            "guideConfig": {
+                "waitTime": 20000,
+                "presentTime": 5000
+            },
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)",
+            "webp": true,
+            "oakData": {
+                "activityCollection": {},
+                "ui": {
+                    "priceSection": {
+                        "type": "normal",
+                        "data": {
+                            "afterCouponTagDesc": "券后¥10.01",
+                            "afterCouponTagRich": [
+                                {
+                                    "txt": "券后",
+                                    "font": 16,
+                                    "type": 1
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 3
+                                },
+                                {
+                                    "txt": "¥",
+                                    "font": 17,
+                                    "type": 1
+                                },
+                                {
+                                    "txt": "10.01",
+                                    "font": 17,
+                                    "type": 1
+                                }
+                            ],
+                            "afterCouponJumpUrl": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "afterCouponHasSuffix": 0,
+                            "afterCouponFbAmount": 0
+                        }
+                    },
+                    "newPriceSection": {
+                        "isNormal": 1,
+                        "type": "normal",
+                        "price": "10.01",
+                        "priceRich": [
+                            {
+                                "txt": "10",
+                                "font": 28,
+                                "type": 1,
+                                "canHidden": false,
+                                "minFont": 19
+                            },
+                            {
+                                "txt": ".01",
+                                "font": 15,
+                                "type": 1,
+                                "canHidden": false,
+                                "minFont": 13
+                            }
+                        ],
+                        "prefix": "券后",
+                        "prefixRich": [
+                            {
+                                "txt": "券后",
+                                "font": 14,
+                                "type": 1
+                            },
+                            {
+                                "type": 2,
+                                "space": 2
+                            },
+                            {
+                                "txt": "¥",
+                                "font": 16,
+                                "type": 1
+                            }
+                        ],
+                        "prefixIcon": {
+                            "url": "https://commimg.pddpic.com/upload/ddpay/11a3cba0-62fa-4612-bf2c-eae726dc9936.png",
+                            "width": 17,
+                            "height": 16
+                        },
+                        "color": "#E02E24",
+                        "bgColor": "#FFFFFF",
+                        "afterCoupon": {
+                            "tagRich": [
+                                {
+                                    "txt": "券后",
+                                    "font": 16,
+                                    "type": 1
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 3
+                                },
+                                {
+                                    "txt": "¥",
+                                    "font": 17,
+                                    "type": 1
+                                },
+                                {
+                                    "txt": "10.01",
+                                    "font": 17,
+                                    "type": 1
+                                }
+                            ],
+                            "clickUrl": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "hasSuffix": 0,
+                            "fbAmount": 0,
+                            "color": "#FFFFFF",
+                            "bgColor": "#E02E24",
+                            "clickColor": "#910A0A"
+                        },
+                        "descLabels": [
+                            "已拼12包"
+                        ],
+                        "descLabelsForCarousel": [],
+                        "descColor": "#58595B",
+                        "impTracks": [
+                            {
+                                "extra": {
+                                    "singlePrice": "45",
+                                    "linePrice": "81",
+                                    "salesTip": "已拼12包",
+                                    "prefixText": "券后",
+                                    "type": 0,
+                                    "prefixIcon": "https://commimg.pddpic.com/upload/ddpay/11a3cba0-62fa-4612-bf2c-eae726dc9936.png",
+                                    "pindanPrice": "30.01",
+                                    "cpPrice": "10.01",
+                                    "descLabels": "已拼12包"
+                                },
+                                "pageElSn": "5049756"
+                            },
+                            {
+                                "extra": {
+                                    "details": 2000
+                                },
+                                "pageElSn": "7665880"
+                            }
+                        ],
+                        "priceTag": {
+                            "txt": "已优惠20元",
+                            "color": "#FFFFFF",
+                            "clickUrl": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "bgColor": "#E02E24",
+                            "clickBgColor": "#C51E14",
+                            "clickColor": "#EDBBB8",
+                            "clickTrack": {
+                                "extra": {
+                                    "details": 2000
+                                },
+                                "pageElSn": "7665880"
+                            },
+                            "hiddenArrow": 1,
+                            "style": 1
+                        },
+                        "isElder": 0,
+                        "useNewDescLabelsRule": false
+                    },
+                    "newBottomSection": {
+                        "leftButton": {
+                            "title": [
+                                {
+                                    "txt": "¥",
+                                    "font": 19,
+                                    "type": 1,
+                                    "canHidden": false,
+                                    "minFont": 14
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 1
+                                },
+                                {
+                                    "txt": "45",
+                                    "font": 19,
+                                    "type": 1,
+                                    "canHidden": false,
+                                    "minFont": 14
+                                }
+                            ],
+                            "desc": "单独购买",
+                            "clickAction": "directBuy",
+                            "textColor": "#FFFFFF",
+                            "bgColor": "#F4ABA7",
+                            "textClickColor": "#F9E0DF",
+                            "bgClickColor": "#EB9894",
+                            "impTracks": [
+                                {
+                                    "extra": {
+                                        "type": 0
+                                    },
+                                    "pageElSn": "99809"
+                                }
+                            ],
+                            "clickTrack": {
+                                "extra": {
+                                    "type": 0
+                                },
+                                "pageElSn": "99809"
+                            }
+                        },
+                        "rightButton": {
+                            "title": [
+                                {
+                                    "txt": "券后",
+                                    "font": 17,
+                                    "type": 1,
+                                    "canHidden": false,
+                                    "minFont": 14
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 3
+                                },
+                                {
+                                    "txt": "¥",
+                                    "font": 19,
+                                    "type": 1,
+                                    "canHidden": false,
+                                    "minFont": 14
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 1
+                                },
+                                {
+                                    "txt": "10",
+                                    "font": 19,
+                                    "type": 1,
+                                    "canHidden": false,
+                                    "minFont": 14
+                                },
+                                {
+                                    "txt": ".01",
+                                    "font": 13,
+                                    "type": 1,
+                                    "canHidden": false,
+                                    "minFont": 14
+                                }
+                            ],
+                            "desc": "发起拼单",
+                            "clickAction": "groupBuy",
+                            "textColor": "#FFFFFF",
+                            "bgColor": "#E02E24",
+                            "textClickColor": "#EDBBB8",
+                            "bgClickColor": "#C51E14",
+                            "useBackup": 0,
+                            "impTracks": [
+                                {
+                                    "extra": {
+                                        "pricePrefixType": 0,
+                                        "bottomType": "after_coupon",
+                                        "title": "券后",
+                                        "timeDescSuffix": "发起拼单"
+                                    },
+                                    "pageElSn": "99811"
+                                },
+                                {
+                                    "extra": {
+                                        "bottomSectionStyle": 0
+                                    },
+                                    "pageElSn": "9778506"
+                                }
+                            ],
+                            "clickTrack": {
+                                "extra": {
+                                    "pricePrefixType": 0,
+                                    "bottomType": "after_coupon",
+                                    "title": "券后",
+                                    "timeDescSuffix": "发起拼单"
+                                },
+                                "pageElSn": "99811"
+                            }
+                        }
+                    },
+                    "titleSection": {
+                        "payPart": {
+                            "type": 5,
+                            "icon": {
+                                "id": -1,
+                                "url": "",
+                                "clickNotice": "订单发货后90天内申请退货、换货或维修，将自动减免/返还首重运费"
+                            },
+                            "text": {
+                                "txt": "不满意包退货运费，退换无忧",
+                                "color": "#25B513",
+                                "prefixTxt": "退货包运费",
+                                "clickColor": "#1F9347",
+                                "backgroundColor": "#EEF9ED",
+                                "backgroundClickColor": "#DCF3D9"
+                            },
+                            "style": 2
+                        },
+                        "channelIconBef": []
+                    },
+                    "liveSection": {
+                        "onLive": 0,
+                        "floatFromType": 1,
+                        "floatInfo": {
+                            "ifGoodsShow": "false",
+                            "replayInfo": "{\"width\":360,\"height\":640,\"recommendOnewayRequestError\":false,\"floatWindowAddBorder\":true,\"feed_id\":\"5293678584338220470\",\"mall_id\":null,\"event_id\":2707633429,\"event_feed_id\":\"5293678584338220470\",\"show_id\":\"5293678584338220470\",\"total_pv\":null,\"link_url\":\"live_room.html?ext=%7B%22feed_scene_id%22%3A651%7D&show_red_box=0&promotion_ui_style=2&biz_type=1&scene_id=50&goods_id=654421287835&use_hub=1&feed_id=5293678584338220470&page_from=601109&sub_biz_type=101&container_hub_type=hub%2Fzb_promotions_scene%2Fweak&head_ids=5293678584338220470&hub_type=hub%2Fzb_promotions_scene%2Fweak&video_from_link=goods.html%3Fgoods_id%3D654421287835&location_required=0\",\"video_url\":null,\"duration_millis\":null,\"goods_id\":654421287835,\"is_fake_customer_mode\":false,\"cover_url\":\"https://video-snapshot01.pddpic.com/lupus-cover-b/talent-video-b/2022-12-31/02bd226b-ceb6-4d54-8bd8-f98ccbfd744d.jpeg\",\"small_window_player_info\":\"{\\\"if_h265\\\":false,\\\"if_soft_h265\\\":false,\\\"video_url_info\\\":\\\"{\\\\\\\"h265_videos\\\\\\\":[],\\\\\\\"videos\\\\\\\":[{\\\\\\\"bitrate\\\\\\\":1187925,\\\\\\\"duration\\\\\\\":5047,\\\\\\\"height\\\\\\\":640,\\\\\\\"host_list\\\\\\\":[{\\\\\\\"host\\\\\\\":\\\\\\\"video4-1.pddugc.com\\\\\\\"},{\\\\\\\"host\\\\\\\":\\\\\\\"video4-5.pddpic.com\\\\\\\"},{\\\\\\\"host\\\\\\\":\\\\\\\"video4-2.pddugc.com\\\\\\\"}],\\\\\\\"is_default\\\\\\\":true,\\\\\\\"url\\\\\\\":\\\\\\\"http://video4-1.pddpic.com/tower-video-b/41d4d8ef724f62b6f31258ef936dd68f607d5a5e.crop.highlights.f20.mp4?k=113b1abb671002215a3c47561ade023e&t=1751121907\\\\\\\",\\\\\\\"width\\\\\\\":360}]}\\\"}\",\"replay_windows_prec\":\"{\\\"related_feed_id\\\":\\\"5293678584338220470\\\"}\",\"float_windows_tips\":\"商品讲解\",\"float_windows_style\":null,\"is_float_window_add_border\":true}",
+                            "type": "1"
+                        }
+                    },
+                    "bubbleSection": {
+                        "showBubble": 1
+                    },
+                    "skuSection": {
+                        "viewStyle": 0,
+                        "viewStyleV2": 0,
+                        "yellowLabelList": [
+                            {
+                                "labelText": "2件9.5折",
+                                "labelType": "single_goods_percentage_event"
+                            }
+                        ],
+                        "skuUnselectTip": "券前¥30.01",
+                        "skuUnselectTipType": 5,
+                        "skuUnselectTipColor": "#58595B",
+                        "skuUnselectTipFont": 14,
+                        "skuTakeCoupon": 1,
+                        "consultPromotionPrice": 1,
+                        "priceDisplay": {
+                            "prefix": "券后",
+                            "rmb": "¥",
+                            "price": "10.01"
+                        },
+                        "skuPaneTitleSuffixTag": {
+                            "text": "退货包运费",
+                            "textColor": "#FFFFFF",
+                            "textClickColor": "#BCDEC8",
+                            "bgColor": "#25B513",
+                            "bgClickColor": "#1F9347",
+                            "borderColor": "#25B513",
+                            "borderClickColor": "#1F9347",
+                            "clickNotice": "订单发货后90天内申请退货、换货或维修，将自动减免/返还首重运费"
+                        },
+                        "impTracks": []
+                    },
+                    "bottomBuyingSection": {
+                        "type": "after_coupon",
+                        "data": {
+                            "pricePrefix": "券后",
+                            "afterCouponPrice": 1001,
+                            "priceBottomDesc": "发起拼单"
+                        }
+                    },
+                    "morePopNaviButton": {
+                        "naviList": [
+                            {
+                                "iconId": "59210",
+                                "text": "常见问题",
+                                "url": "questions.html"
+                            },
+                            {
+                                "iconId": "59213",
+                                "text": "意见反馈",
+                                "url": "personal_feedback.html"
+                            },
+                            {
+                                "iconId": "59212",
+                                "text": "举报商品",
+                                "url": "comm_goods_complaint.html?goods_id=654421287835&counterfeitBrandProducts=false"
+                            }
+                        ]
+                    },
+                    "priceExplainSection": {
+                        "pulldownTitle": "点击查看商品价格说明"
+                    },
+                    "photoBottomSection": {
+                        "priceRich": [
+                            {
+                                "txt": "10",
+                                "font": 24,
+                                "type": 1,
+                                "canHidden": false,
+                                "minFont": 19
+                            },
+                            {
+                                "txt": ".01",
+                                "font": 13,
+                                "type": 1,
+                                "canHidden": false,
+                                "minFont": 13
+                            }
+                        ],
+                        "prefixRich": [
+                            {
+                                "txt": "券后",
+                                "font": 13,
+                                "type": 1
+                            },
+                            {
+                                "type": 2,
+                                "space": 2
+                            },
+                            {
+                                "txt": "¥",
+                                "font": 15,
+                                "type": 1
+                            }
+                        ],
+                        "color": "#FFFFFF",
+                        "afterCoupon": {
+                            "tagRich": [
+                                {
+                                    "txt": "券后",
+                                    "font": 16,
+                                    "type": 1
+                                },
+                                {
+                                    "type": 2,
+                                    "space": 3
+                                },
+                                {
+                                    "txt": "¥",
+                                    "font": 17,
+                                    "type": 1
+                                },
+                                {
+                                    "txt": "10.01",
+                                    "font": 17,
+                                    "type": 1
+                                }
+                            ],
+                            "clickUrl": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "hasSuffix": 0,
+                            "fbAmount": 0,
+                            "color": "#FFFFFF",
+                            "bgColor": "#E02E24",
+                            "clickColor": "#910A0A"
+                        },
+                        "descColor": "#9C9C9C",
+                        "priceTag": {
+                            "txt": "已优惠20元",
+                            "color": "#FFFFFF",
+                            "clickUrl": "lego_goods_detail_coupon_price_popup_goods_detail_coupon_price_popup.html?lego_type=v8&lego_minversion=5.28.0&lego_ssr_api=/api/goods_detail_coupon_price_popup/get_config/goods_detail_coupon_price_popup&rp=0&goods_id=654421287835&mall_id=354541209&cat_id=17379&cat_id1=17285&cat_id2=17294&cat_id3=17379&cat_id4=0&goods_type=1&event_type=0&oversea_type=0&min_on_sale_group_price=3001&from_page=0&promo_price_version=1750862707667&options=%5B117%2C54%2C135%2C9%2C122%2C60%2C13%5D&promo_price=1001&old_min_on_sale_group_price=3001&fb_send_amount=0&has_suffix=0",
+                            "hiddenArrow": 1
+                        },
+                        "openGroupTxt": "去拼单",
+                        "useNewDescLabelsRule": false
+                    }
+                },
+                "goods": {
+                    "decoration": [
+                        {
+                            "floorId": 1,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": -1,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/f9c24dd6-41fc-46b4-8798-099b776d3c54.jpeg.a.jpeg",
+                                    "height": 1280,
+                                    "width": 1280
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855630,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 0,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/2445a50b-bdb9-4967-a295-d9979431f508.jpeg.a.jpeg",
+                                    "height": 300,
+                                    "width": 750
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855631,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 1,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/0b6df18c-604d-4206-9ac2-d033615149bf.jpeg.a.jpeg",
+                                    "height": 1500,
+                                    "width": 662
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855632,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 2,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/0dec86a4-5356-428a-ba9f-faea7044097f.jpeg.a.jpeg",
+                                    "height": 786,
+                                    "width": 790
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855633,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 3,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/2983e148-5a80-4389-a364-0514739c55ac.jpeg.a.jpeg",
+                                    "height": 1499,
+                                    "width": 731
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855634,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 4,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/bc8e4765-d55f-4659-8153-1455dbe09755.jpeg.a.jpeg",
+                                    "height": 1498,
+                                    "width": 699
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855635,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 5,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/0d0fe235-97bd-4bc3-bc0d-c1eca22c726e.jpeg.a.jpeg",
+                                    "height": 1472,
+                                    "width": 790
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855636,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 6,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/afff23b3-d8f6-434c-9ff4-2d1bcb5f0de9.jpeg.a.jpeg",
+                                    "height": 1486,
+                                    "width": 790
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855637,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 7,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/a47b9151-49e1-4b41-b58d-d52462fb011f.jpeg.a.jpeg",
+                                    "height": 1500,
+                                    "width": 607
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855638,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 8,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/9346ed64-6425-4416-8c29-6ec986141d4e.jpeg.a.jpeg",
+                                    "height": 1498,
+                                    "width": 686
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855639,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 9,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/420d6f73-96cb-4f20-94bf-b74d20cfa089.jpeg.a.jpeg",
+                                    "height": 1404,
+                                    "width": 790
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855640,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 10,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/6bb809c3-786e-46cf-a82c-9ddcd3d34b51.jpeg.a.jpeg",
+                                    "height": 1190,
+                                    "width": 790
+                                }
+                            ],
+                            "enableShare": 1
+                        },
+                        {
+                            "floorId": 77980855641,
+                            "key": "DecImage",
+                            "type": "image",
+                            "priority": 11,
+                            "contents": [
+                                {
+                                    "imgUrl": "https://img.pddpic.com/mms-material-img/2024-09-10/81bbf46f-0cba-459f-93ad-8d1b41c73c1a.jpeg.a.jpeg",
+                                    "height": 1052,
+                                    "width": 790
+                                }
+                            ],
+                            "enableShare": 1
+                        }
+                    ],
+                    "country": "",
+                    "goodsProperty": [
+                        {
+                            "key": "品牌",
+                            "values": [
+                                "软风"
+                            ],
+                            "refPid": 310,
+                            "referenceId": 1470863
+                        },
+                        {
+                            "key": "单包片数",
+                            "values": [
+                                "2片"
+                            ],
+                            "refPid": 1215,
+                            "referenceId": 0
+                        },
+                        {
+                            "key": "包数",
+                            "values": [
+                                "2包"
+                            ],
+                            "refPid": 1212,
+                            "referenceId": 0
+                        },
+                        {
+                            "key": "适用人群",
+                            "values": [
+                                "通用"
+                            ],
+                            "refPid": 338,
+                            "referenceId": 0
+                        },
+                        {
+                            "key": "添加成分",
+                            "values": [
+                                "其它"
+                            ],
+                            "refPid": 2311,
+                            "referenceId": 0
+                        },
+                        {
+                            "key": "生产日期",
+                            "values": [
+                                "2024-06-06"
+                            ],
+                            "refPid": 405,
+                            "referenceId": 0
+                        },
+                        {
+                            "key": "保质期",
+                            "values": [
+                                "1080天"
+                            ],
+                            "refPid": 406,
+                            "referenceId": 0
+                        },
+                        {
+                            "key": "腰型",
+                            "values": [
+                                "中腰"
+                            ],
+                            "refPid": 350,
+                            "referenceId": 0
+                        }
+                    ],
+                    "goodsPropertyType": 0
+                },
+                "control": {
+                    "requireMallActiveTime": 1,
+                    "inPriceTagGray": 1,
+                    "joinGroupTxtGray": 1,
+                    "quantityCheckRequestParams": {
+                        "fromGoodsDetail": 1
+                    },
+                    "aiAssistantEnable": false,
+                    "enableFoldFavAndMall": false
+                },
+                "review": {
+                    "reviewNum": 0,
+                    "reviewMergeOuterNum": 0,
+                    "reviewNumText": "",
+                    "reviewMergeOuterNumText": "",
+                    "newMerchantQaPatternGray": false,
+                    "merchantQaAnswerShow": false,
+                    "merchantQaNumText": "",
+                    "merchantQaTitleText": "商品答疑",
+                    "newOuterReviewGray": true,
+                    "outerPositiveReviewNumText": "",
+                    "enablePassReviewId": false,
+                    "mergeReviewWithOuterReview": 1,
+                    "mallReviewEntranceInfo": {
+                        "labelList": [
+                            {
+                                "id": "2f2f443f3861b67ed69168d434775962",
+                                "clusterId": 52,
+                                "name": "正品",
+                                "num": 282,
+                                "positive": 1,
+                                "text": "正品(282)",
+                                "view": {
+                                    "labelType": 1,
+                                    "iconfont": 59421,
+                                    "backColor": "#DAF8CD",
+                                    "clickBackColor": "#C2E6B2",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#25B513",
+                                    "clickTextColor": "#2C6813",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "462a84ed278b88720849dfa87b1a7b6b",
+                                "clusterId": -1,
+                                "name": "回头客",
+                                "num": 6936,
+                                "positive": 1,
+                                "text": "回头客(6936)",
+                                "view": {
+                                    "labelType": 0,
+                                    "iconfont": 59147,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "4321de561007156245a82d6da365bf0d",
+                                "clusterId": 4,
+                                "name": "划算",
+                                "num": 14000,
+                                "positive": 1,
+                                "text": "划算(1.4万)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "ef7bc5da221112376d9961c198834f9f",
+                                "clusterId": 0,
+                                "name": "质量很好",
+                                "num": 13000,
+                                "positive": 1,
+                                "text": "质量很好(1.3万)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "7e80eee9740d3843608897e65ae9b7e5",
+                                "clusterId": 172,
+                                "name": "纸质非常好",
+                                "num": 10000,
+                                "positive": 1,
+                                "text": "纸质非常好(1万)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "b97ce588f2c96029bb485f15d329eb16",
+                                "clusterId": 340,
+                                "name": "吸水性强",
+                                "num": 4863,
+                                "positive": 1,
+                                "text": "吸水性强(4863)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "29558f23481b8b082df282157e9a055e",
+                                "clusterId": 22,
+                                "name": "好用",
+                                "num": 4574,
+                                "positive": 1,
+                                "text": "好用(4574)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "232a85c70c5abca5c34cd5cd5eea800d",
+                                "clusterId": 20,
+                                "name": "包装很好",
+                                "num": 2879,
+                                "positive": 1,
+                                "text": "包装很好(2879)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "0ad8c17dc30f2e42283d0fa81163d64c",
+                                "clusterId": 2,
+                                "name": "物流很快",
+                                "num": 1583,
+                                "positive": 1,
+                                "text": "物流很快(1583)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "fdf56c6da5046de3a1d0f9d284aaf02b",
+                                "clusterId": 8,
+                                "name": "服务态度很好",
+                                "num": 994,
+                                "positive": 1,
+                                "text": "服务态度很好(994)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "c26a0add9e812318f0838a2c37882ec3",
+                                "clusterId": 122,
+                                "name": "纸分量足",
+                                "num": 643,
+                                "positive": 1,
+                                "text": "纸分量足(643)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "37362d0c494542060b33a7e719c4e119",
+                                "clusterId": 1144,
+                                "name": "卫生纸很好",
+                                "num": 278,
+                                "positive": 1,
+                                "text": "卫生纸很好(278)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            },
+                            {
+                                "id": "e3183a828953750d41d72ff344db7a5b",
+                                "clusterId": 120,
+                                "name": "跟实体店一样",
+                                "num": 87,
+                                "positive": 1,
+                                "text": "跟实体店一样(87)",
+                                "view": {
+                                    "labelType": 0,
+                                    "backColor": "#FDEFEE",
+                                    "clickBackColor": "#F7D7D5",
+                                    "selectBackColor": "#E02E24",
+                                    "textColor": "#58595B",
+                                    "clickTextColor": "#7C7372",
+                                    "selectTextColor": "#FFFFFF"
+                                }
+                            }
+                        ],
+                        "titleText": "该商品所属店铺评价",
+                        "exps": {
+                            "mall_functional_label": {
+                                "bucket": 0,
+                                "timestamp": 1750862707648
+                            }
+                        }
+                    },
+                    "exps": {
+                        "goods_detail_perfect_pic": {
+                            "strategy_name": "V2.27",
+                            "timestamp": 1750862707648
+                        }
+                    },
+                    "reviewNumStr": "",
+                    "enableReviewNewStyle": false,
+                    "extraMap": {
+                        "extraMapOuterPositiveReviewNum": 0,
+                        "notDisplayLabelRevNum": false,
+                        "isNumIncrease": false
+                    },
+                    "hideTextArrowStrategy": 0
+                },
+                "sectionList": [
+                    {
+                        "sectionId": "price_section"
+                    },
+                    {
+                        "data": {
+                            "mallPromotionNewCell": {
+                                "cellDetailList": [
+                                    {
+                                        "copyWriting": "20元无门槛券",
+                                        "cellTagType": 25,
+                                        "inMilli": false,
+                                        "countOverOneDay": false,
+                                        "copyWritingColor": "#E02E24",
+                                        "frameColor": "#E02E24",
+                                        "backgroundColor": "#FFFFFF",
+                                        "promoDiscount": 2000,
+                                        "usableType": 10002,
+                                        "showExpiredTips": false,
+                                        "showTips": false
+                                    }
+                                ]
+                            }
+                        },
+                        "sectionId": "discount_section",
+                        "sectionAction": {
+                            "actionType": "discount_pop",
+                            "actionData": {
+                                "bizName": "discount_pop_section"
+                            }
+                        }
+                    },
+                    {
+                        "sectionId": "pay_tip_section"
+                    },
+                    {
+                        "data": {
+                            "color": "#FFFFFF",
+                            "height": 6
+                        },
+                        "sectionId": "space_section"
+                    },
+                    {
+                        "sectionId": "title_section"
+                    },
+                    {
+                        "data": {
+                            "color": "#FFFFFF",
+                            "height": 8
+                        },
+                        "sectionId": "space_section"
+                    },
+                    {
+                        "data": {
+                            "control": {
+                                "topLine": 1
+                            }
+                        },
+                        "reuseSectionId": "group_section",
+                        "sectionId": "group_up_section"
+                    },
+                    {
+                        "sectionId": "service_section"
+                    },
+                    {
+                        "sectionId": "space_section"
+                    },
+                    {
+                        "sectionId": "comment_section"
+                    },
+                    {
+                        "sectionId": "space_section"
+                    },
+                    {
+                        "sectionId": "mall_comment_section"
+                    },
+                    {
+                        "sectionId": "space_section"
+                    },
+                    {
+                        "sectionId": "mall_info_section"
+                    },
+                    {
+                        "sectionId": "space_section"
+                    },
+                    {
+                        "sectionId": "goods_property_section"
+                    },
+                    {
+                        "sectionId": "full_back_coupons_section"
+                    },
+                    {
+                        "sectionId": "video_section"
+                    },
+                    {
+                        "sectionId": "illustration_section"
+                    },
+                    {
+                        "sectionId": "decoration_section"
+                    },
+                    {
+                        "data": {
+                            "elderMode": false,
+                            "pulldownTitle": "点击查看商品价格说明",
+                            "content": [
+                                {
+                                    "txt": "单独购买价：",
+                                    "color": "#151516"
+                                },
+                                {
+                                    "txt": "是您单独购买商品的价格\n",
+                                    "color": "#58595B"
+                                },
+                                {
+                                    "txt": "发起拼单价：",
+                                    "color": "#151516"
+                                },
+                                {
+                                    "txt": "是您拼单购买商品的价格\n",
+                                    "color": "#58595B"
+                                },
+                                {
+                                    "txt": "划线价：",
+                                    "color": "#151516"
+                                },
+                                {
+                                    "txt": "是指商品展示的参考价，是商品的专柜价、吊牌价、零售价、厂商指导价或该商品曾经展示过的销售价等，并非原价；由于地区、时间的差异性和市场行情波动，专柜价、零售价等可能会与您购物时展示的不一致，该价格仅供您参考\n",
+                                    "color": "#58595B"
+                                },
+                                {
+                                    "txt": "特别提示：",
+                                    "color": "#151516"
+                                },
+                                {
+                                    "txt": "实际的成交价格可能因您使用优惠券等发生变化，最终以订单结算页的价格为准。若商家单独对价格进行说明的，以商家的表述为准。如您发现活动商品售价或促销信息存在异常，建议购买前先联系商家进行咨询",
+                                    "color": "#58595B"
+                                }
+                            ]
+                        },
+                        "sectionId": "usage_price_desc_section"
+                    }
+                ],
+                "servicePromise": [
+                    {
+                        "id": 3,
+                        "type": "退货包运费",
+                        "typeColor": "#58595B",
+                        "dialogType": "退货包运费",
+                        "dialogTypeColor": "#151516",
+                        "desc": "订单发货后90天内申请退货、换货或维修，将自动减免/返还首重运费",
+                        "top": 1,
+                        "topType": 1,
+                        "navigation": 0,
+                        "navigationUrl": "",
+                        "showTip": "收货后如不满意，可以免费退货",
+                        "detailHidden": 0
+                    },
+                    {
+                        "id": 1,
+                        "type": "全场包邮",
+                        "typeColor": "#58595B",
+                        "dialogType": "全场包邮",
+                        "dialogTypeColor": "#151516",
+                        "desc": "所有商品包邮",
+                        "top": 0,
+                        "topType": 0,
+                        "navigation": 0,
+                        "navigationUrl": "",
+                        "detailHidden": 0
+                    },
+                    {
+                        "id": 2,
+                        "type": "7天无理由退货",
+                        "typeColor": "#58595B",
+                        "dialogType": "7天无理由退货",
+                        "dialogTypeColor": "#151516",
+                        "desc": "满足相应条件时，消费者可申请“7天无理由退货”，其中定制订单不支持“7天无理由退货”",
+                        "top": 0,
+                        "topType": 0,
+                        "navigation": 0,
+                        "navigationUrl": "",
+                        "detailHidden": 0
+                    },
+                    {
+                        "id": 13,
+                        "type": "48小时发货",
+                        "typeColor": "#58595B",
+                        "dialogType": "48小时发货",
+                        "dialogTypeColor": "#151516",
+                        "desc": "订单支付成功后48小时内发货，若未在48小时内发货，消费者将会收到至少3元无门槛代金券",
+                        "top": 0,
+                        "topType": 0,
+                        "navigation": 0,
+                        "navigationUrl": "",
+                        "detailHidden": 0
+                    },
+                    {
+                        "id": 24,
+                        "type": "极速退款",
+                        "typeColor": "#58595B",
+                        "dialogType": "极速退款",
+                        "dialogTypeColor": "#151516",
+                        "desc": "满足相应条件时，拼单成功12小时内，待发货状态下，提交退款申请将立即退款",
+                        "top": 0,
+                        "topType": 0,
+                        "navigation": 0,
+                        "navigationUrl": "",
+                        "detailHidden": 0
+                    }
+                ],
+                "subSections": {
+                    "discountPopSection": {
+                        "template": {
+                            "content": ""
+                        },
+                        "data": {
+                            "mallPromoList": [
+                                {
+                                    "sn": "A0054VC-756903806785521305",
+                                    "batchSn": "A0054VC-756903806785521305",
+                                    "mallId": 354541209,
+                                    "discount": 2000,
+                                    "sourceType": 54,
+                                    "minAmount": 2000,
+                                    "discountType": 1,
+                                    "colorType": 2,
+                                    "richRulesDesc": [
+                                        {
+                                            "txt": "仅限该商品使用",
+                                            "countdownStyle": 0
+                                        }
+                                    ],
+                                    "displayType": 29,
+                                    "promotionDetailType": 1,
+                                    "timeDisplayName": "领券后2小时内有效",
+                                    "tagDesc": "商品券",
+                                    "goldenTag": false,
+                                    "buttonClickable": true,
+                                    "buttonDesc": "领取",
+                                    "buttonSubDesc": "",
+                                    "ruleSubDesc": "领券后2小时内有效",
+                                    "clickOperationType": 2,
+                                    "transmissionData": {}
+                                }
+                            ],
+                            "extension": {},
+                            "mallPromoTitle": "店铺优惠",
+                            "environmentContext": {
+                                "pageFrom": "0",
+                                "newVersion": true,
+                                "functionTag": false
+                            },
+                            "title": "优惠详情",
+                            "simplePromDisplayList": [
+                                {
+                                    "activityTag": "多件优惠",
+                                    "activityCopyWriting": "该商品满2件享9.5折",
+                                    "sourceType": 971
+                                }
+                            ],
+                            "isUnavailable": false
+                        }
+                    }
+                },
+                "neighborGroup": {
+                    "neighborStatus": 1,
+                    "neighborData": {
+                        "combineGroup": {
+                            "groupTotal": 3,
+                            "combineGroupList": [
+                                {
+                                    "memberInfoList": [
+                                        {
+                                            "nickname": "安***",
+                                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                                            "isFriend": false
+                                        }
+                                    ],
+                                    "memberCount": 1,
+                                    "buttonDesc": "去拼单",
+                                    "groupType": 2,
+                                    "trackList": [
+                                        {
+                                            "pageElSn": "4264980",
+                                            "extra": {
+                                                "type": 2,
+                                                "buttonDsc": "去拼单"
+                                            }
+                                        }
+                                    ],
+                                    "clickTrack": {
+                                        "pageElSn": "4264980",
+                                        "extra": {
+                                            "type": 2,
+                                            "buttonDsc": "去拼单"
+                                        }
+                                    },
+                                    "skuParams": {}
+                                },
+                                {
+                                    "memberInfoList": [
+                                        {
+                                            "nickname": "一***",
+                                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-b3bb567e/XBVNFNoKfIIw_W1gdzWq36Pp0WOeB66wUS6016y4ZxNVg6W1hHNhCVQmMRcD7um2q4JIueRq8uQw9Rft2MFjidqWnbhusM2FnvXs1PWtkYwAW9Dp2BUPzHQQKr5LTU6oUYK8VTi8_b-1lFaDDsuclQ",
+                                            "isFriend": false
+                                        }
+                                    ],
+                                    "memberCount": 1,
+                                    "buttonDesc": "去拼单",
+                                    "groupType": 2,
+                                    "trackList": [
+                                        {
+                                            "pageElSn": "4264980",
+                                            "extra": {
+                                                "type": 2,
+                                                "buttonDsc": "去拼单"
+                                            }
+                                        }
+                                    ],
+                                    "clickTrack": {
+                                        "pageElSn": "4264980",
+                                        "extra": {
+                                            "type": 2,
+                                            "buttonDsc": "去拼单"
+                                        }
+                                    },
+                                    "skuParams": {}
+                                }
+                            ],
+                            "combineGroupDesc": "3人想拼，参与可立即拼成",
+                            "combineGroupPopupTitle": "3人想拼，可抢先拼单",
+                            "combineGroupPopupFooter": "",
+                            "combineGroupButtonDesc": "去拼单",
+                            "pulldownGroup": {
+                                "groupInfo": {
+                                    "memberInfoList": [
+                                        {
+                                            "nickname": "安***",
+                                            "avatar": "https://savatar.pddpic.com/a/FGlwlerH6c-7a826171/J1Z-ym97dDOvsmemkASoM9pb7EjvXD5Vd1q1pd9DzXfgWBC8tgIuYQzwq-BdGUtL1DgQgb9WLMObKoXDhYEzHpsRXlcjyd6Ne-VP-9vWu_7Z5qvn3ZnSCEWVtMGVjlCLYMdN_3tmedSsh1jRnYOCNA",
+                                            "isFriend": false
+                                        }
+                                    ],
+                                    "buttonDesc": "去拼单",
+                                    "groupType": 2,
+                                    "skuParams": {}
+                                },
+                                "groupTitleInfo": {
+                                    "groupTitleDesc": "3人想拼，参与可立即拼成",
+                                    "needJoinCountdown": false
+                                }
+                            },
+                            "rotationMillSecond": 2000,
+                            "combineGroupListType": 2,
+                            "startRotationMillSecond": 1000,
+                            "moveUpGroupModuleStyle": 5,
+                            "isGoodsAwkward": true,
+                            "extendMap": {
+                                "isHistoryAndVisitorGroup": false,
+                                "isEnhanceLocalGroup": false,
+                                "platformContext": {
+                                    "platform": "H5_FOR_IOS",
+                                    "version": "0.0.0",
+                                    "majorVersion": 0,
+                                    "minorVersion": 0,
+                                    "buildVersion": 0,
+                                    "bugfixVersion": 0,
+                                    "iosPlatform": false,
+                                    "androidPlatform": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "secondaryApi": {
+                    "url": "/api/oak/integration/require_extra",
+                    "method": "POST",
+                    "params": {
+                        "goods_id": "654421287835",
+                        "page_from": "0",
+                        "mall_id": 354541209,
+                        "func_points": [
+                            "mall_active_time",
+                            "full_back_coupons_section"
+                        ],
+                        "min_on_sale_group_price": 3001,
+                        "min_on_sale_group_price_with_coupon": 1001,
+                        "has_rec_section": false
+                    }
+                },
+                "bottomSectionList": [
+                    {
+                        "control": {
+                            "showType": 1,
+                            "closeOptions": 0,
+                            "limitType": 0,
+                            "coverOptions": 0
+                        },
+                        "sectionId": "group_buy_section"
+                    }
+                ]
+            },
+            "isABRafLoadJS": true,
+            "isABChatActiveDuration": true,
+            "isABRefreshToken": true
+        },
+        "extra": {
+            "mallActiveTimeText": ""
+        },
+        "isNativePlatform": false,
+        "isLiteNativePlatform": false,
+        "isTinyNativePlatform": false,
+        "categoryCouponInfo": {},
+        "popupModalElement": null,
+        "isIOS": false,
+        "isWhiteFont": false,
+        "isTransparentBar": false,
+        "isShowFailingGroupHint": false,
+        "isWeChatMiniProgram": false,
+        "isShowFastGroupBuyTip": false,
+        "skuOcExtend": {},
+        "bannerState": {
+            "currentIndex": 0,
+            "goToPageIndex": 0,
+            "hasShowedSimpleGoods": false,
+            "simpleGoodsList": []
+        },
+        "fakeAppDownloadShow": false,
+        "withBtnScaleAnimation": false,
+        "appCouponGray": 0,
+        "appDownloadCouponGray": 0,
+        "ifHigherMallInfo": false,
+        "ifHasPushState": false,
+        "abTestValues": {
+            "pwc_cc4bc7": {
+                "sku": {
+                    "sku_height": "88%"
+                },
+                "alignWithNative": {}
+            }
+        },
+        "animationControllers": [],
+        "animationGroupTimer": null,
+        "mallDetailInfo": {},
+        "viewCtx": {},
+        "detailsIsInner": false,
+        "funcAssemblySet": {},
+        "$isSupportWebp": false,
+        "isHarmonyBApp": false,
+        "goodsCommentsInLayerGrey": false,
+        "goodsSkuImageHotGrey": false,
+        "goodsImageQuantityGrey": false,
+        "goodsImageQuantityParams": {},
+        "isDDMCMiniProgram": false,
+        "isABGoodsStreamRender": true,
+        "isServerRendered": true,
+        "isFinishInitLoading": true,
+        "isPreClientDataFetch": false
+    }
+}

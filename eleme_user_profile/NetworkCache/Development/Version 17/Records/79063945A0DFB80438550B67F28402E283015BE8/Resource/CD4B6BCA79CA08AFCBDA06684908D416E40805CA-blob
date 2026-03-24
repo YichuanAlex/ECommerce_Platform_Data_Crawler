@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,width=device-width,viewport-fit=cover" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="data-aspm" content="a2f6g" />
+  <meta name="data-bizType" content="elemeapp" />
+  <meta name="aplus-waiting" content="MAN" />
+  <meta name="ltracker-autopv" content="false" />
+  <meta name="ltracker-enable-user-api" content="false" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="data-aspm" content="a2f6g" />
+  <meta name="data-bizType" content="elemeapp" />
+  <meta name="aplus-waiting" content="MAN" />
+  <meta name="aplus-only-update-page-properties" content="on" />
+  <meta name="ltracker-autopv" content="false" />
+  <meta name="ltracker-enable-user-api" content="false" />
+  <meta name="ltracker-location" content="false" />
+  <base href="/" />
+  <meta name="description" content="饿了么" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo120.png" />
+
+  <!-- 预获取域名的DNS信息 -->
+  <link rel="dns-prefetch" href="//img.alicdn.com" />
+  <link rel="dns-prefetch" href="//cube.elemecdn.com" />
+  <link rel="dns-prefetch" href="//shadow.elemecdn.com" />
+  <link rel="dns-prefetch" href="//nr-op.elemecdn.com" />
+  <link rel="dns-prefetch" href="//d.alicdn.com" />
+  <link rel="dns-prefetch" href="//nr-op.elemecdn.com" />
+  <link rel="dns-prefetch" href="//g.alicdn.com" />
+  <link rel="dns-prefetch" href="//waimai-guide.ele.me" />
+  <link rel="dns-prefetch" href="//wgo.mmstat.com" />
+
+  <!-- 设置标题：空字符不可见 -->
+  <title>&lrm;</title>
+
+  <script>
+    // 判断是否为淘宝端
+    window.isTaobao = (function () {
+      var ua = navigator.userAgent.toLowerCase();
+      return /aliapp\(tb/i.test(ua);
+    })();
+    // 不在淘宝端动态加载 baxia-entry
+    if (!isTaobao) {
+      var script = document.createElement('script');
+      script.src = 'https://g.alicdn.com/sd/baxia-entry/index.js';
+      script.async = true;
+      document.head.appendChild(script);
+    }
+  </script>
+
+  <!-- firefly -->
+  <script>
+    if (window.location.href.indexOf("__isDebug=1") > -1) {
+      !function (e) { var t = {}; function o(r) { if (t[r]) return t[r].exports; var n = t[r] = { i: r, l: !1, exports: {} }; return e[r].call(n.exports, n, n.exports, o), n.l = !0, n.exports } o.m = e, o.c = t, o.d = function (e, t, r) { o.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r }) }, o.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, o.t = function (e, t) { if (1 & t && (e = o(e)), 8 & t) return e; if (4 & t && "object" == typeof e && e && e.__esModule) return e; var r = Object.create(null); if (o.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: e }), 2 & t && "string" != typeof e) for (var n in e) o.d(r, n, function (t) { return e[t] }.bind(null, n)); return r }, o.n = function (e) { var t = e && e.__esModule ? function () { return e.default } : function () { return e }; return o.d(t, "a", t), t }, o.o = function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, o.p = "", o(o.s = 369) }({ 369: function (e, t, o) { "use strict"; var r = "", n = "fireworm_webview_env"; window.local = !1, r = "https://dev.g.alicdn.com/fireworm/firefly/firefly.js"; var a = ["tribe-dev.render.koubei.com", "gw-pre.alipayobjects.com", "mc-daily.tribe.koubei.com", "mc-pre.tribe.koubei.com", "market.wapa.taobao.com", "pre-tb.ele.me", "pre-wormhole.tmall.com"]; !function () { try { window.AlipayJSBridge && window.AlipayJSBridge.call("getConfig", { configKeys: ["rpcUrl"] }, function (e) { var t = (e.data || {}).rpcUrl, o = void 0 === t ? "" : t; o && /dev|test|pre|aaa|stable/.test(o) ? localStorage.setItem(n, "true") : localStorage.setItem(n, "false") }), function () { var e; (function () { if (/([a-zA-Z0-9]?\.)?\.net/.test(location.host) || /local\.koubei\.(com|test)/.test(location.host) || /render-pre/.test(location.host) || /(daily|pre)-([a-zA-Z0-9]*\.)*alibaba-inc\.com/.test(location.host) || /ppe-([a-zA-Z0-9]*\.)*ele\.me/.test(location.host) || /ppe-([a-zA-Z0-9]*\.)*rajax-inc\.com/.test(location.host) || /([a-zA-Z0-9]*\.)*(local|daily|beta|alpha|alta|altb|altc)\.elenet\.me/.test(location.host) || /debug([0-9]+)\.appx\.run/.test(location.host) || /[\?&]__(firefly|fireworm)=true/.test(location.href)) return !0; for (var e = 0; e < a.length; ++e) { var t = a[e]; if (-1 !== location.href.indexOf(t)) return !0 } return "true" === localStorage.getItem(n) })() && ((e = document.createElement("script")).src = r, e.id = "firefly_node", "loading" !== document.readyState ? document.head.appendChild(e) : document.onreadystatechange = function () { "loading" !== document.readyState && document.head.appendChild(e) }) }() } catch (e) { console.log(e) } }() } });
+    }
+  </script>
+
+  <!-- exlog -->
+  <script>
+    // 此为exlog的初始化配置
+    window._ex = {
+      biz: 'a2f6g.12507204',  // 配置spm或业务标识
+      bizType: 'KOUBEI', // 业务类型标识，默认KOUBEI即可
+      realtime: true, // 开启后通过http上报，饿了么/淘宝会走ut通道，默认false即可
+      debug: false, // 开启后会在console打印日志，但不会上报
+      enableAsyncJsError: true, // 开启后会通过unhandledrejection监听promise未处理的异常
+      enableOutsidePerformance: true, // 端外上报性能需要开启
+      enableUrlQuery: true,
+      commonParams: {
+      }, // 添加全局参数，也可以直接赋值到window.ExLog.commonParams = {}
+      newErrFilter: function (params) { return true; }, // 异常过滤，params即log参数，返回true代表上报
+      plugin: {
+      }
+    }
+
+    !function () { if (!window.ExLog) { var o = { _isInit: !0, _readyToLog: [], log: function (e) { var n = e; "object" == typeof n && o && o._readyToLog && o._readyToLog.push(n) }, destory: function () { window.removeEventListener("error", e, !1), o = null } }; window.addEventListener("error", e, !1), window.ExLog = o } function e(e) { var n = e.message || "-", r = e.filename || "-", i = e.lineno || "-", s = e.colno || "-", g = e.error || {}, t = { error: "H5_EX_JSERROR", msg: {} }; window._ex && window._ex.biz && (t.msg.biz = window._ex.biz), t.msg.errorMsg = n, t.msg.url = r, t.msg.line = i, t.msg.column = s, t.msg.stack = g && g.stack || "-", o && o.log(t) } }();
+  </script>
+
+  <script async type="text/javascript" src="https://g.alicdn.com/code/npm/@ali/alsc-exlog-web/1.0.45/index.js"></script>
+
+  <!-- 小程序脚本 -->
+  <script>
+    const UA = navigator.userAgent;
+    // 加载脚本
+    function loadScript(url, callback) {
+      var script = document.createElement('script');
+      script.src = url;
+      // 确保脚本加载完成后再执行回调
+      script.onload = function () {
+        if (callback) callback();
+      };
+      // 处理可能的错误
+      script.onerror = function (err) {
+        if (callback) callback(new Error('Error loading script.'));
+      };
+      document.head.appendChild(script);
+    }
+
+    // 微信 jssdk
+    if (/micromessenger/.test(UA.toLowerCase())) {
+      document.querySelector('meta[name="referrer"]').setAttribute('content', 'origin');
+      // document.writeln('<script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"' + '>' + '<' + '/' + 'script>');
+      loadScript("https://res.wx.qq.com/open/js/jweixin-1.6.0.js")
+    }
+  </script>
+
+  <!-- ebridge  -->
+  <script type="text/javascript" src="https://g.alicdn.com/code/npm/@ali/pcom-ebridge/0.9.17/cdn/index.js"></script>
+  <!-- 测试：ebridge -->
+  <!-- <script defer type="text/javascript" src="https://dev.g.alicdn.com/code/npm/@ali/pcom-ebridge/0.9.11/cdn/api.js"></script> -->
+
+  <!-- 微信 mtop -->
+  <script defer src="https://g.alicdn.com/code/npm/@ali/alsc-miniapp-mtop/3.8.34/miniforweb/index.js"></script>
+
+  <!-- React UMD 18.2.0-->
+  <script defer
+    src="https://g.alicdn.com??/code/lib/react/18.2.0/umd/react.production.min.js,/code/lib/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+
+  <!-- 老的广告埋点：o2o-ad/adplus/0.3.20/adplus.js 升级成新的广告埋点：code/npm/@ali/alsc-adplus/1.0.6/index.js -->
+  <script defer src="https://g.alicdn.com/??code/npm/@ali/ltracker-h5/2.0.33/index.js,code/npm/@ali/alsc-adplus/1.0.16/index.js"
+    crossOrigin="anonymous"></script>
+
+  <script defer src="https://g.alicdn.com/code/npm/@ali/acom-alsc-request/3.1.6/cdn/index.js"></script>
+  <script defer src="https://g.alicdn.com/??ext-lib/mor-swiper/1.0.0/index.js,code/lib/mobile-detect/1.4.5/mobile-detect.min.js,code/lib/lottie-web/5.12.2/lottie.min.js"></script>
+<script>window.$MOR_GLOBAL_OBJECT="myPro";window.$MOR_WEB_CONFIG={"mainEntryPage":"pages/index-xsd/index","lazyCodeLoading":true,"integrateChunks":{"minChunkSize":1000000,"maxChunkSize":1500000},"useVw":true,"responsiveRootFontSize":16,"showBack":false,"showHeader":false,"publicPath":"//shadow.elemecdn.com/faas/minisite/","devServer":{"port":443,"server":"https","client":{"overlay":{"errors":false,"warnings":false}}},"miniCssExtractOptions":{},"inlineAssetLimit":8192,"autoGenerateEntries":true,"emitIntermediateAssets":true,"appConfig":{"customTabBarKey":"tbk","apiNoConflict":false}};window.$MOR_APP_CONFIG={"customTabBarKey":"tbk","apiNoConflict":false};</script><script defer src="//shadow.elemecdn.com/faas/minisite/mor.r.b7d49d.js"></script><script defer src="//shadow.elemecdn.com/faas/minisite/19.870ccb.js"></script><script defer src="//shadow.elemecdn.com/faas/minisite/mor.g.19403d.js"></script><link href="//shadow.elemecdn.com/faas/minisite/19.6a85c8.css" rel="stylesheet"><link href="//shadow.elemecdn.com/faas/minisite/mor.g.4d50dd.css" rel="stylesheet"></head>
+
+<body>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui,
+        -apple-system,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        "Noto Sans",
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    }
+
+    #fcc-snapshot-placeholder {
+      background: #fff;
+    }
+
+    #fcc-snapshot-placeholder .mor-comp-page-content {
+      padding: 0px !important;
+    }
+
+    .compatibilityWarningImage {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #666;
+      background-image: url(https://gw.alicdn.com/imgextra/i3/O1CN01hWOvyP1U8gE3dOzMz_!!6000000002473-2-tps-370-583.png);
+    }
+
+    .compatibilityWarningMsg {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      bottom: 30%;
+      text-align: center;
+    }
+
+    .mor-comp-page-pull-header {
+      color: #999999;
+      font-size: 14px;
+      background-color: #fff;
+    }
+  </style>
+  <script>
+    window.addEventListener('ffsp-ready', function () {
+      window.__megability_bridge__ && window.__megability_bridge__.asyncCall('APM', 'addPageStage', {
+        key: 'H5_JST_FFSP',
+        value: new Date().getTime(),
+      })
+    })
+  </script>
+  <script>
+    window.isTab = true;
+    if (window.isTaobao && location.href.indexOf("isTab=false") > -1) {
+      window.isTab = false;
+      document.body.classList.add('not_in_tab');
+    }
+
+    if (window.isTab && window.isTaobao && window.ebridge && window.ebridge.compareVersion) {
+      var ua = navigator.userAgent.toLowerCase();
+      var isIos = /ios|iphone os/i.test(ua);
+      var safeAreaBottomInsetZero = window.ebridge.compareVersion('10.49.0');
+
+      if (isIos && safeAreaBottomInsetZero) {
+        document.body.classList.add('body-safe-area-inset-bottom-zero');
+      }
+    }
+  </script>
+  <script>
+    /**
+     * listener FFSP ready.
+     */
+    function onFFSPReady() {
+      const images = Array.from(document.images);
+
+      if (images.length === 0) {
+        window.dispatchEvent(new Event('ffsp-ready'));
+        return;
+      }
+
+      let loadedCount = 0;
+      function checkDone() {
+        loadedCount++;
+        if (loadedCount === images.length) {
+          window.dispatchEvent(new Event('ffsp-ready'));
+        }
+      }
+
+      images.forEach(img => {
+        if (img.complete && img.naturalWidth !== 0) {
+          checkDone();
+        } else {
+          img.addEventListener('load', checkDone, { once: true });
+          img.addEventListener('error', checkDone, { once: true });
+        }
+      });
+    }
+
+    function fccDomClick(e) {
+      e.stopPropagation();
+      const { fccScheme, url } = e.currentTarget.dataset;
+      const _url = fccScheme || url;
+      console.log('<<<<<< fccDomClick', _url);
+      if (_url) {
+        try {
+          window.__megability_bridge__.asyncCall(
+            'navigator',
+            'openURL',
+            {
+              url: _url,
+            }
+          )
+        } catch {
+          window.location.href = _url;
+        }
+      }
+    }
+
+    function bindFccClick(root) {
+      Array.from(root.querySelectorAll('[data-fcc-scheme]')).forEach(ele => {
+        ele.setAttribute('data-track-homeSnapshot', '1');
+        ele.addEventListener('click', fccDomClick);
+      });
+    }
+
+    /**
+   * ID for the snapshot placeholder element
+   */
+    const PLACEHOLDER_ID = 'fcc-snapshot-placeholder';
+    /**
+     * Initialize snapshot placeholder and set snapshot content
+     * @param cacheKey - Cache key used to retrieve snapshot content from localStorage
+     */
+    function paintSnapshot(cacheKey) {
+      // Init snapshot placeholder element.
+      let fccSnapshotPlaceholder = document.getElementById(PLACEHOLDER_ID);
+      if (!fccSnapshotPlaceholder) {
+        const newPlaceholder = document.createElement('div');
+        newPlaceholder.id = PLACEHOLDER_ID;
+        newPlaceholder.style.position = 'absolute';
+        newPlaceholder.style.width = '100%';
+        newPlaceholder.style.top = '0';
+        newPlaceholder.style.left = '0';
+        newPlaceholder.style.zIndex = '9999';
+        document.body.appendChild(newPlaceholder);
+        fccSnapshotPlaceholder = newPlaceholder;
+      }
+
+      window.__fly__ = window.__fly__ || {};
+
+      // Get snapshot from cache and paint.
+      const snapshotCache = localStorage.getItem(cacheKey);
+      if (fccSnapshotPlaceholder && snapshotCache && (!window.__fly__.fccHit)) {
+        fccSnapshotPlaceholder.innerHTML = snapshotCache;
+        bindFccClick(fccSnapshotPlaceholder);
+        window.__fly__.fccHit = true;
+        onFFSPReady();
+        window.bodySnapshot = true;
+      }
+    }
+
+    function queryString() {
+      const res = {};
+      const target = window.location.search + window.location.hash.replace(/^#!/, '#');
+      target.replace(/([^=?#&]*)=([^?#&]*)/g, function (e, $1, $2) {
+        res[$1] = $2;
+      });
+      return res;
+    }
+
+    const query = queryString() || {};
+    if (query.hideWebSnapshot !== '1') {
+      let keyName = 'fcc-cache-11.22.69-' + location.pathname;
+      if (!window.isTab) {
+        keyName += '-notInTab';
+        if (query.iconBizType) {
+          keyName += '-' + query.iconBizType;
+        }
+      }
+      paintSnapshot(keyName);
+      window.__HIDE_WEB_SNAPSHOT__ = false;
+    } else {
+      window.__HIDE_WEB_SNAPSHOT__ = true;
+    }
+
+  </script>
+  <!-- 兼容性判断 -->
+  <script>
+    try {
+      var iosVersionMatchRes = navigator.userAgent.match(/(iPhone|CPU) OS (\d+)_(\d+)/);
+      var shouldShowCompatibilityWarning = false;
+      if (iosVersionMatchRes) {
+        var iosMainVersion = parseInt(iosVersionMatchRes[2], 10);
+        var iosSubVersion = parseInt(iosVersionMatchRes[3], 10);
+        if (iosMainVersion < 10 || (iosMainVersion === 10 && iosSubVersion < 3)) shouldShowCompatibilityWarning = true;
+      }
+
+      var chromeVersionMatchRes = navigator.userAgent.match(/Chrome\/(\d+)/);
+      if (chromeVersionMatchRes) {
+        var chromeMainVersion = parseInt(chromeVersionMatchRes[1], 10);
+        if (chromeMainVersion < 54) shouldShowCompatibilityWarning = true
+      }
+
+      if (shouldShowCompatibilityWarning) {
+        document.body.style.margin = '0 auto';
+        var divEle = document.createElement('div');
+        divEle.classList.add('compatibilityWarningImage');
+
+        var errorMsg = document.createElement('div');
+        errorMsg.innerText = '由于您的手机系统版本过低，请升级后再来喔';
+        errorMsg.classList.add('compatibilityWarningMsg');
+
+        divEle.appendChild(errorMsg);
+        document.body.appendChild(divEle);
+        Object.defineProperty(window, 'App', { value: {}, writable: false });
+      }
+    } catch (err) {
+      console.error('兼容性判断错误', err)
+    }
+  </script>
+
+  <!-- 钉钉微应用 -->
+  <script>
+    var isDingtalk = navigator && /DingTalk/.test(navigator.userAgent);
+    if (isDingtalk) {
+
+      var isProductEnv = window && window.location && window.location.host
+        && window.location.host.indexOf('127.0.0.1') === -1
+        && window.location.host.indexOf('localhost') === -1
+        && window.location.host.indexOf('192.168.') === -1
+      // 如果有其它测试域名，请一起排掉，减少测试环境对生产环境监控的干扰
+      if (isProductEnv) {
+
+        const greenBuy = "dta_2_123040"; // 绿色购
+        const pindan = "dta_2_132549"; // 钉钉拼单
+
+        let __bid = pindan;
+        if (window.location.href.indexOf('from=mobile.greenbuy')) {
+          __bid = greenBuy;
+        }
+
+        !(function (c, i, e, b) {
+          var h = i.createElement("script");
+          var f = i.getElementsByTagName("script")[0];
+          h.type = "text/javascript";
+          h.crossorigin = true;
+          h.onload = function () {
+            c[b] || (c[b] = new c.wpkReporter({ bid: __bid }));
+            c[b].installAll()
+          };
+          f.parentNode.insertBefore(h, f);
+          h.src = e
+        })(window, document, "https://g.alicdn.com/woodpeckerx/jssdk??wpkReporter.js", "__wpk");
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://g.alicdn.com/ext-lib/mor-swiper/1.0.0/index.css"/>
+  <!-- 预请求 -->
+  <script defer src="https://g.alicdn.com/code/npm/@ali/alsc-tb-prefetch/1.0.6/index.js"></script>
+</body>
+
+</html>

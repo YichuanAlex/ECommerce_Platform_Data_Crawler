@@ -1,0 +1,317 @@
+{
+    "store": {
+        "errorRedirectUrl": "/",
+        "isPre": false,
+        "$likeMallText": "关注",
+        "$likeMallEntryTip": "关注的店铺可在个人中心的“店铺关注”入口查看",
+        "preRenderBannerSrc": null,
+        "preRenderHideNoFirstScreenContent": false,
+        "preRenderShowMock": false,
+        "initDataObj": {
+            "goods": {
+                "serverTime": 1750862808,
+                "serverTimeTen": 17508628080,
+                "weakenGoodsName": 0,
+                "goodsID": 732045608841,
+                "brandId": "",
+                "goodsType": 1,
+                "localGroups": [],
+                "hasLocalGroup": 0,
+                "topGallery": [],
+                "viewImageData": [],
+                "detailGallery": [],
+                "videoGallery": [],
+                "descVideoGallery": [],
+                "mallID": 951435188,
+                "groupTypes": [],
+                "skus": [],
+                "thumbUrl": "",
+                "hdThumbUrl": "",
+                "eventType": 0,
+                "isApp": 0,
+                "isFreshmanApp": 0,
+                "eventComing": false,
+                "isSpike": false,
+                "isTodaySpike": false,
+                "isTomorrowSpike": false,
+                "isSpikeComing": false,
+                "gpv": null,
+                "quickRefund": false,
+                "rv": false,
+                "maxNormalPrice": "0",
+                "minNormalPrice": "0",
+                "maxGroupPrice": "0",
+                "minGroupPrice": "0",
+                "maxOnSaleGroupPrice": "0",
+                "minOnSaleGroupPrice": "0",
+                "maxOnSaleNormalPrice": "0",
+                "minOnSaleNormalPrice": "0",
+                "unselectNormalSavePrice": "0",
+                "skipGoodsIDs": [
+                    ""
+                ],
+                "tag": null,
+                "icon": null,
+                "tagIcon": [],
+                "isColdGoods": 0,
+                "goodsProperty": [],
+                "skuProperty": [],
+                "linePrice": "0",
+                "priceStyle": 0,
+                "quicklyExpire": {},
+                "goodsExpansionPrice": "0",
+                "beforeRemindSeconds": 300,
+                "bottomBanner": null,
+                "isAppFlow": true,
+                "groupNumFull": false,
+                "promptExplain": "",
+                "isAbnormalStatus": true,
+                "statusExplain": "商品已售罄，推荐以下相似商品",
+                "statusIcon": 59326,
+                "abnormalShowMall": 1,
+                "hideMall": false,
+                "isMallRec": false,
+                "status": 2,
+                "isGoodsOnSale": false,
+                "isSkuOnSale": false,
+                "isOnSale": false,
+                "showRecTitle": 1,
+                "abnormalSearchUrl": "search_view.html?source=10111&shade_words=搜索你要的商品",
+                "showRec": 1,
+                "eventTime": 1750862808,
+                "mallService": {
+                    "service": [],
+                    "vipService": {},
+                    "honorService": {}
+                },
+                "skuDirectOrder": false,
+                "ui": {},
+                "control": {
+                    "ai_assistant_enable": false,
+                    "enable_fold_fav_and_mall": false
+                },
+                "transmission": {},
+                "uin": "TRFN2KTBUDX74GDQ2GZ5O7M4AI_GEXDA",
+                "isMobileWeChatPlatform": false,
+                "contextData": {
+                    "isNativePlatform": false,
+                    "hostname": "mobile.yangkeduo.com",
+                    "isMiniProgram": false
+                },
+                "DDType": false,
+                "isDuoDuoSingleGroup": false,
+                "isDuoDuoDoubleGroup": false,
+                "isNewBottomTips": false,
+                "isLowGroupNewBottomTips": false,
+                "nowTime": 1750862808,
+                "nowTimeTen": 17508628080,
+                "isABTestGoodsPrerenderOC": true,
+                "isAbDirectOrderRepayModifyPanel": true,
+                "isAbDirectOrderMianmiV2": true,
+                "isAbSwitchToWechatIfSignXyhfFailed": false,
+                "hasAddressLine": false,
+                "ignoreShowSkuSelector": false,
+                "useBestPromotion": true,
+                "usePayPromotion": true,
+                "goodsImageQuantityGrey": false,
+                "goodsImageQuantityParams": {},
+                "isABGoodsRecOffset": false,
+                "isABfastGroupBuyQa": false,
+                "isABLongBannerMode": true,
+                "isGoodsBottomAfterCouponRefresh": true,
+                "isABBottomMallIconStyle": false,
+                "isABWxGotoAppEnforce": false,
+                "ifLiveCouponSkuSelector": true,
+                "showGoodsLabel": true,
+                "guideXyhfCountdown": false,
+                "supportGbs": true,
+                "balanceNotEnoughToMianMi": true,
+                "payCanceledToXyhf": true,
+                "applyDuoDuoPayCancelToMianMi": true,
+                "enableSkuMask": true,
+                "bottomBtnIndex": false,
+                "canRefreshAfterOrder": false,
+                "allowOcHosts": [
+                    "mobile.pinduoduo.com"
+                ],
+                "forwardOcHost": "mobile.yangkeduo.com",
+                "livingValidationUrl": "https://renzheng.pinduoduo.com/living-validation/living-validation.html",
+                "useH5FaceCert": true,
+                "bannerHeight": "3.75rem",
+                "isUseRawBackBannerUrl": false
+            },
+            "mall": {
+                "mallId": "951435188",
+                "mallName": "月神骑行装备",
+                "mallStar": 4.5,
+                "mallShowType": 0,
+                "mallTransferType": 0,
+                "salesTip": "已拼689件",
+                "salesTipV2": "全店已拼689件",
+                "salesTipV3": "店铺已拼689件",
+                "mallSales": 689,
+                "mallLogo": "http://t16img.yangkeduo.com/pdd_ims/img_check/v3/575974FFFFFF0820200112155026235/b34e975e1e144206a97b9159aa23ebae.png",
+                "goodsNum": 3,
+                "goodsNumDesc": "商品数量: 3",
+                "pddRoute": "mall_page.html?mall_id=951435188&msn=kqeu2truv7dxgqci2fxqektqxe_axbuy&_sop_rcto=YWL1xP6NUozz-3IV5VoUcjJFTuXTx_3fIjo&mall_info=%7B%22mall_name%22%3A%22%E6%9C%88%E7%A5%9E%E9%AA%91%E8%A1%8C%E8%A3%85%E5%A4%87%22%7D",
+                "pddRouteName": "进店逛逛",
+                "mallServiceTag": "客服",
+                "isFlagShip": false,
+                "logoList": [],
+                "mallLogoList": [],
+                "mallLogoListV2": [],
+                "dsr": {
+                    "descScore": 0,
+                    "descStatus": 0,
+                    "logisticsScore": 0,
+                    "logisticsStatus": 0,
+                    "serviceScore": 0,
+                    "serviceStatus": 0,
+                    "descRankPercent": 0,
+                    "logisticsRankPercent": 0,
+                    "serviceRankPercent": 0,
+                    "descRankStatus": 0,
+                    "logisticsRankStatus": 0,
+                    "serviceRankStatus": 0,
+                    "hideRankInfo": 1,
+                    "mallStar": 4.5,
+                    "isShowMallStar": true
+                },
+                "isGuideMall": false,
+                "extras": {
+                    "2": false,
+                    "3": false,
+                    "5": 1,
+                    "7": false,
+                    "8": true,
+                    "13": false,
+                    "14": false
+                },
+                "msn": "kqeu2truv7dxgqci2fxqektqxe_axbuy",
+                "merchantType": 1,
+                "hasMallDecoration": false,
+                "mallHeadTagVo": {
+                    "action": "highLayer",
+                    "actionParams": {
+                        "url": "pdd_mall_lego_pages.html?lego_minversion=5.78.0&minversion=5.78.0&lego_type=v8&lego_ssr_api=%2Fapi%2Fpdd_mall_lego_pages%2Fget_config%2Fpdd_mall_guarantee_layer&source=3&mall_id=951435188",
+                        "name": "pdd_mall_guarantee_layer"
+                    },
+                    "iconUrl": "https://funimg.pddpic.com/d33e814f-b115-4877-8dfb-cf6bb13b0a6e.png",
+                    "iconWidth": 11,
+                    "iconHeight": 13,
+                    "bgImgUrl": "https://funimg.pddpic.com/2021-01-05/50063bdc-47ab-4134-91cf-bc13fe1fa5bb.png",
+                    "title": "店铺保障",
+                    "mallPageHeadShowTagVolist": [
+                        {
+                            "showTagType": 2,
+                            "desc": "退货包运费",
+                            "scriptColor": "#58595B"
+                        },
+                        {
+                            "desc": "保证金",
+                            "scriptColor": "#58595B"
+                        }
+                    ]
+                },
+                "hideShipAddress": false,
+                "mallFavVo": {
+                    "showButton": false,
+                    "mallFavNum": 16,
+                    "mallFavTag": "粉丝:16"
+                },
+                "factoryMallVo": {
+                    "factoryMallFlag": false
+                },
+                "mallID": "951435188",
+                "logo": "https://t16img.yangkeduo.com/pdd_ims/img_check/v3/575974FFFFFF0820200112155026235/b34e975e1e144206a97b9159aa23ebae.png"
+            },
+            "liveInfo": null,
+            "queries": {
+                "goods_id": "732045608841"
+            },
+            "isIOS": false,
+            "isSystemIOS": true,
+            "guideConfig": {
+                "waitTime": 20000,
+                "presentTime": 5000
+            },
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)",
+            "webp": true,
+            "oakData": {
+                "activityCollection": {},
+                "ui": {},
+                "goods": {},
+                "control": {
+                    "aiAssistantEnable": false,
+                    "enableFoldFavAndMall": false
+                },
+                "promotion": {
+                    "events": {}
+                },
+                "sectionList": [
+                    {
+                        "sectionId": "space_section"
+                    },
+                    {
+                        "sectionId": "mall_info_section"
+                    }
+                ]
+            },
+            "isABRafLoadJS": true,
+            "isABChatActiveDuration": true,
+            "isABRefreshToken": true
+        },
+        "extra": {
+            "mallActiveTimeText": ""
+        },
+        "isNativePlatform": false,
+        "isLiteNativePlatform": false,
+        "isTinyNativePlatform": false,
+        "categoryCouponInfo": {},
+        "popupModalElement": null,
+        "isIOS": false,
+        "isWhiteFont": false,
+        "isTransparentBar": false,
+        "isShowFailingGroupHint": false,
+        "isWeChatMiniProgram": false,
+        "isShowFastGroupBuyTip": false,
+        "skuOcExtend": {},
+        "bannerState": {
+            "currentIndex": 0,
+            "goToPageIndex": 0,
+            "hasShowedSimpleGoods": false,
+            "simpleGoodsList": []
+        },
+        "fakeAppDownloadShow": false,
+        "withBtnScaleAnimation": false,
+        "appCouponGray": 0,
+        "appDownloadCouponGray": 0,
+        "ifHigherMallInfo": false,
+        "ifHasPushState": false,
+        "abTestValues": {
+            "pwc_cc4bc7": {
+                "sku": {
+                    "sku_height": "88%"
+                },
+                "alignWithNative": {}
+            }
+        },
+        "animationControllers": [],
+        "animationGroupTimer": null,
+        "mallDetailInfo": {},
+        "viewCtx": {},
+        "detailsIsInner": false,
+        "funcAssemblySet": {},
+        "$isSupportWebp": false,
+        "isHarmonyBApp": false,
+        "goodsCommentsInLayerGrey": false,
+        "goodsSkuImageHotGrey": false,
+        "goodsImageQuantityGrey": false,
+        "goodsImageQuantityParams": {},
+        "isDDMCMiniProgram": false,
+        "isABGoodsStreamRender": true,
+        "isServerRendered": true,
+        "isFinishInitLoading": true,
+        "isPreClientDataFetch": false
+    }
+}

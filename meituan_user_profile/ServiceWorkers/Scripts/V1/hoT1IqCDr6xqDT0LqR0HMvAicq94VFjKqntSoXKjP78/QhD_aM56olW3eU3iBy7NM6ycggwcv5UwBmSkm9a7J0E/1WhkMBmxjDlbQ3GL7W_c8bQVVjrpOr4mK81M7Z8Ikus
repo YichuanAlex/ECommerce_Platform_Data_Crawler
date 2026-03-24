@@ -1,0 +1,76 @@
+// 加载workbox资源
+importScripts('https://s3.meituan.net/static-prod01/com.sankuai.mttouchweb.app.imeituan-files/workbox-sw.js');
+
+if (workbox) {
+  // 缓存导航栏路径
+  const navigationRoute = new workbox.routing.NavigationRoute(
+    new workbox.strategies.NetworkFirst({
+      cacheName: 'navigations',
+    })
+  );
+  // 缓存图片资源
+  const imgAssetRoute = new workbox.routing.Route(
+    ({ request }) => {
+      return request.destination === 'image';
+    },
+    new workbox.strategies.CacheFirst({
+      cacheName: 'image-assets',
+      plugins: [
+        // 这个插件是让匹配的请求的符合开发者指定的条件的返回结果可以被缓存
+        new workbox.cacheableResponse.CacheableResponsePlugin({
+          statuses: [0, 200],
+        }),
+      ],
+    })
+  );
+  // 缓存项目中饮用的固定静态资源
+  const staticFileSourceList = [
+    'lx.meituan.net/lx.5.min.js',
+    's0.meituan.net/bs/knb/v1.9.1/knb.js',
+    's3.meituan.net/mnpm-cdn/@mtfe-perf-h5-1.8.0/web.base.min.js',
+    'www.dpfile.com/app/owl/static/owl_1.10.0.js',
+    's3.meituan.net/v1/mss_eb9ea9cfff9840198c3ae909b17b4270/production/logan-websdk/logan_2.1.4.js',
+    'appsec-mobile.meituan.com/h5guard/H5guard.js',
+  ];
+
+  // 动态缓存除图片外的所有静态资源
+  const staticAssetRoute = new workbox.routing.Route(
+    ({ request }) => {
+      const { url } = request;
+      const matchToStore = staticFileSourceList.find((filePath) => url.match(filePath));
+      return !!matchToStore;
+    },
+    new workbox.strategies.CacheFirst({
+      cacheName: 'static-assets',
+      plugins: [
+        // 这个插件是让匹配的请求的符合开发者指定的条件的返回结果可以被缓存
+        new workbox.cacheableResponse.CacheableResponsePlugin({
+          statuses: [0, 200],
+        }),
+      ],
+    })
+  );
+
+  // 动态缓存除图片外的所有静态资源
+  const dynamicAssetRoute = new workbox.routing.Route(
+    ({ request }) => {
+      return request.destination !== 'image';
+    },
+    new workbox.strategies.NetworkFirst({
+      cacheName: 'dynamic-assets',
+      plugins: [
+        // 这个插件是让匹配的请求的符合开发者指定的条件的返回结果可以被缓存
+        new workbox.cacheableResponse.CacheableResponsePlugin({
+          statuses: [0, 200],
+        }),
+      ],
+    })
+  );
+
+  workbox.routing.registerRoute(navigationRoute);
+  workbox.routing.registerRoute(imgAssetRoute);
+  workbox.routing.registerRoute(staticAssetRoute);
+  workbox.routing.registerRoute(dynamicAssetRoute);
+} else {
+  console.log('workbox is not loaded');
+}
